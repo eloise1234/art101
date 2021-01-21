@@ -1,0 +1,35 @@
+h1 {
+  color: orange;
+  font-size: 200%;
+}
+
+#content_ashwin {
+  width: 500px;
+  font-family: "comic sans";
+  min-height: 100px;
+  background-color: blue;
+  padding: 10px;
+  margin: 20px;
+  border: solid 1px #444444;
+  font size: 20px;
+}
+#content_eloise {
+  width: 500px;
+  font-family: "comic sans";
+  min-height: 100px;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  border: solid 1px #444444;
+  font size: 20px;
+}
+#image {
+  background-color: orange;
+  float: left;
+  width: 600px;
+  min-height:300px;
+  padding: 10px;
+  margin: 20px;
+  border-style: dotted;
+}

@@ -1,0 +1,44 @@
+h1 {
+  font-size: 300%;
+  margin-left: 350px;
+
+}
+h2 {
+  color: purple;
+}
+h3 {
+  color: purple;
+}
+h4 {
+  color: purple;
+}
+
+
+#problems {
+  width: 500px;
+  min-height: 300px;
+  font-family: Georgia;
+  padding: 10px;
+  border: solid 1px #444444;
+  background-color: lavender;
+  margin-left: 150px
+}
+#challenge {
+  width: 500px;
+  min-height: 100px;
+  font-family: Georgia;
+  font-size: 16px;
+  padding: 10px;
+  border: solid 1px #444444;
+  background-color: lavender;
+  margin-left: 150px
+}
+#results {
+  width: 700px;
+  min-height: 300px;
+  font-family: Georgia;
+  padding: 10px;
+  border: solid 1px #444444;
+  background-color: lavender;
+  margin-left: 50px
+}

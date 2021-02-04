@@ -1,0 +1,33 @@
+h1 {
+  font-size: 20px;
+  color: black;
+  margin-left: 275px;
+}
+
+h2 {
+  font-size: 18px;
+  color: black;
+  margin-left: 300px;
+}
+
+h3 {
+  font-size: 18px;
+  color: black;
+  margin-left: 310px;
+}
+
+h4 {
+  font-size: 18px;
+  color: black;
+  margin-left: 315px;
+}
+
+h5 {
+  font-size: 18px;
+  color: black;
+  margin-left: 295px;
+}
+
+body {
+background-color: yellow;
+}

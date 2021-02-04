@@ -3,11 +3,11 @@
  * Created:   2.1.2021
  * License: Public Domain
  **/
- var myTransport = ["car", "bus", "bike", "plane", "boat"];
- var myMainRide =  {
-   make: "toyota",
-   model: "prius",
-   color: "green",
+ var myTransport=["car", "bus", "bike", "plane", "boat"];
+ var myMainRide= {
+   make: "Toyota",
+   model: "Prius",
+   color: "Green",
    year: "2020",
    age: "1",
  };

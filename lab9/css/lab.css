@@ -1,0 +1,38 @@
+head {
+  color: white
+}
+h1 {
+  font-size: 26px;
+  color: white;
+  margin-left: 315px;
+}
+
+h2 {
+  font-size: 18px;
+  color: white;
+  margin-left: 300px;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 18px;
+  color: white;
+  margin-left: 310px;
+  font-style: italic;
+}
+
+h4 {
+  font-size: 18px;
+  color: white;
+  margin-left: 315px;
+  font-style: italic;
+}
+
+html {
+  background-color: red;
+}
+#challenge, #problems, #results {
+  border-width: 600px;
+  background-color: orange;
+  color: white;
+}

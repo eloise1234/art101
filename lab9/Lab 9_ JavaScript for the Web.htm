@@ -1,0 +1,2165 @@
+<!DOCTYPE html>
+<!-- saved from url=(0078)https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739 -->
+<html class="" dir="ltr" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link rel="stylesheet" media="screen" href="./Lab 9_ JavaScript for the Web_files/lato_extended-a29d3d859f.css">
+    <script async="" src="./Lab 9_ JavaScript for the Web_files/analytics.js"></script><script>if (navigator.userAgent.match(/(MSIE|Trident\/)/)) location.replace('/ie-is-not-supported.html')</script>
+  
+  <link rel="shortcut icon" type="image/x-icon" href="https://instructure-uploads.s3.amazonaws.com/account_92700000000000001/attachments/1065/logo-b-g-sq-noborder.ico">
+  <link rel="apple-touch-icon" href="https://instructure-uploads.s3.amazonaws.com/account_92700000000000001/attachments/583/logo-180.png?AWSAccessKeyId=AKIAJFNFXH2V2O7RPCAA&amp;Expires=1958655665&amp;Signature=wDPZlxbPlFa2DbJUmM%2B%2F4Z9Qk0o%3D&amp;response-cache-control=Cache-Control%3Amax-age%3D473364000.0%2C%20public&amp;response-expires=473364000.0">
+  <link rel="stylesheet" media="all" href="./Lab 9_ JavaScript for the Web_files/variables-8391c84da435c9cfceea2b2b3317ff66.css">
+  <link rel="stylesheet" media="all" href="./Lab 9_ JavaScript for the Web_files/common-efc5136627.css">
+  <meta name="apple-itunes-app" content="app-id=480883488">
+<link rel="manifest" href="https://canvas.ucsc.edu/web-app-manifest/manifest.json">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#007ac1">
+  <link rel="stylesheet" media="all" href="./Lab 9_ JavaScript for the Web_files/assignments-7520c50222.css">
+<link rel="stylesheet" media="all" href="./Lab 9_ JavaScript for the Web_files/tinymce-087dd5e845.css">
+<link rel="stylesheet" media="all" href="./Lab 9_ JavaScript for the Web_files/learning_outcomes-c2e5d21a98.css">
+  
+  <script>
+    function _earlyClick(e){
+      var c = e.target
+      while (c && c.ownerDocument) {
+        if (c.getAttribute('href') == '#' || c.getAttribute('data-method')) {
+          e.preventDefault()
+          (_earlyClick.clicks = _earlyClick.clicks || []).push(c)
+          break
+        }
+        c = c.parentNode
+      }
+    }
+    document.addEventListener('click', _earlyClick)
+  </script>
+
+
+  <script>
+    INST = {"environment":"production","allowMediaComments":true,"kalturaSettings":{"domain":"nv.instructuremedia.com","resource_domain":"nv.instructuremedia.com","rtmp_domain":"iad.rtmp.instructuremedia.com","partner_id":"9","subpartner_id":"0","player_ui_conf":"0","kcw_ui_conf":"0","upload_ui_conf":"0","max_file_size_bytes":534773760,"do_analytics":false,"hide_rte_button":false,"js_uploader":true},"logPageViews":true,"maxVisibleEditorButtons":3,"editorButtons":[{"name":"Google Apps","id":10,"favorite":true,"url":"https://google-drive-lti-iad-prod.instructure.com/lti/rce-content-selection","icon_url":"https://google-drive-lti-iad-prod.instructure.com/icon.png","canvas_icon_class":null,"width":700,"height":600,"use_tray":false,"description":"\u003cp\u003eAllows you to pull in documents from Google Drive to Canvas\u003c/p\u003e\n"},{"name":"LibApps Library Content","id":831,"favorite":false,"url":"https://ucsc.libapps.com/libapps/lti_launch_manual.php","icon_url":"https://libapps.s3.amazonaws.com/apps/libapps/images/favicon_lti.png","canvas_icon_class":null,"width":800,"height":600,"use_tray":false,"description":"\u003cp\u003eAdd content from LibGuides, E-Reserves, LibCal, and LibAnswers directly into your LMS course pages.\u003c/p\u003e\n"},{"name":"Twitter","id":881,"favorite":false,"url":"https://www.edu-apps.org/twitter_lti/","icon_url":"https://www.edu-apps.org/assets/inst_lti_twitter/icon.png","canvas_icon_class":null,"width":475,"height":490,"use_tray":false,"description":"\u003cp\u003eEmbed a Twitter stream\u003c/p\u003e\n"},{"name":"Commons Favorites","id":1296,"favorite":false,"url":"https://lor.instructure.com/api/lti/favorite-resources","icon_url":"https://lor.instructure.com/img/icon_commons.png","canvas_icon_class":null,"width":800,"height":400,"use_tray":true,"description":"\u003cp\u003eFind and share course content\u003c/p\u003e\n"},{"name":"YuJa Media","id":3091,"favorite":true,"url":"https://media.ucsc.edu/LMSEntry.jsp","icon_url":"https://media.ucsc.edu/Dashboard/icons/yuja_basic_16x16.png","canvas_icon_class":null,"width":800,"height":600,"use_tray":false,"description":"\u003cp\u003eYuJa is an Enterprise Video Platform.\u003c/p\u003e\n"},{"name":"Alexander Street Video","id":3329,"favorite":false,"url":"https://video.alexanderstreet.com/lti/search-widget","icon_url":"https://video.alexanderstreet.com/assets/lti/favicon-16x16.png","canvas_icon_class":null,"width":800,"height":600,"use_tray":false,"description":"\u003cp\u003eSearch and embed Alexander Street video\u003c/p\u003e\n"},{"name":"Insert a Wiley Resource","id":3662,"favorite":false,"url":"https://lti.education.wiley.com/wpng/api/v1/lti/resourcediscoverytool","icon_url":"https://education.wiley.com/assets/images/wp.svg","canvas_icon_class":null,"width":1160,"height":660,"use_tray":false,"description":"\u003cp\u003eOutcomes-based learning.\u003c/p\u003e\n"},{"name":"Embed Alexander Street content","id":3676,"favorite":false,"url":"https://search.alexanderstreet.com/lti/search","icon_url":"https://search.alexanderstreet.com/sites/all/themes/custom/alexanderstreet_foundation/images/mobile_icons/favicon-16x16.png","canvas_icon_class":null,"width":800,"height":450,"use_tray":false,"description":"\u003cp\u003eSearch and embed Alexander Street Music and Text\u003c/p\u003e\n"}]};
+    ENV = {"ASSET_HOST":"https://du11hjcvx0uqb.cloudfront.net/br","active_brand_config_json_url":"https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/f5945a247b05aeb97dd7ac8c6403aedf/variables-8391c84da435c9cfceea2b2b3317ff66.json","url_to_what_gets_loaded_inside_the_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/f5945a247b05aeb97dd7ac8c6403aedf/variables-8391c84da435c9cfceea2b2b3317ff66.css","https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/responsive_layout_normal_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-ed597c156d.css","https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/no_variables/bundles/lato_extended-a29d3d859f.css"],"url_for_high_contrast_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/default/variables-high_contrast-8391c84da435c9cfceea2b2b3317ff66.css","https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/responsive_layout_high_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-ec4ee1f31a.css","https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/no_variables/bundles/lato_extended-a29d3d859f.css"],"current_user_id":"44347","current_user_roles":["user","student"],"current_user_types":[],"current_user_disabled_inbox":false,"files_domain":"cluster57.canvas-user-content.com","DOMAIN_ROOT_ACCOUNT_ID":"92700000000000001","k12":false,"use_responsive_layout":true,"use_rce_enhancements":true,"rce_auto_save":true,"help_link_name":"Help","help_link_icon":"help","use_high_contrast":false,"disable_celebrations":false,"disable_keyboard_shortcuts":false,"LTI_LAUNCH_FRAME_ALLOWANCES":["geolocation *","microphone *","camera *","midi *","encrypted-media *","autoplay *"],"DEEP_LINKING_POST_MESSAGE_ORIGIN":"https://canvas.ucsc.edu","DEEP_LINKING_LOGGING":null,"SETTINGS":{"open_registration":false,"collapse_global_nav":false,"show_feedback_link":true,"filter_speed_grader_by_student_group":false},"DIRECT_SHARE_ENABLED":false,"FEATURES":{"cc_in_rce_video_tray":true,"featured_help_links":true,"rce_lti_favorites":true,"rce_pretty_html_editor":false,"assignment_bulk_edit":true,"responsive_awareness":true,"recent_history":true,"responsive_misc":true,"product_tours":false,"module_dnd":true,"files_dnd":true,"unpublished_courses":true,"bulk_delete_pages":true,"usage_rights_discussion_topics":true,"inline_math_everywhere":false,"canvas_k6_theme":false,"new_math_equation_handling":false},"current_user":{"id":"44347","display_name":"Eloise Shevin","avatar_image_url":"https://canvas.ucsc.edu/images/thumbnails/2097435/RhZsje144lxlLSPGqsjQodi7oj5rG4v8VQmYqV97","html_url":"https://canvas.ucsc.edu/about/44347","pronouns":null,"avatar_is_fallback":false},"page_view_update_url":"/page_views/e7744145-8072-417a-bd51-c8a923cdf744?page_view_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpIjoiZTc3NDQxNDUtODA3Mi00MTdhLWJkNTEtYzhhOTIzY2RmNzQ0IiwidSI6OTI3MDAwMDAwMDAwNDQzNDcsImMiOiIyMDIxLTAyLTExVDAxOjMwOjM0LjU5WiJ9.Ki3s0wluHgpz_-V94txBNQ0q3wzhZiwC7APRZ5DuvTg","context_asset_string":"course_39790","ping_url":"https://canvas.ucsc.edu/api/v1/courses/39790/ping","TIMEZONE":"America/Los_Angeles","CONTEXT_TIMEZONE":"America/Los_Angeles","LOCALE":"en","BIGEASY_LOCALE":"en_US","FULLCALENDAR_LOCALE":"en","MOMENT_LOCALE":"en","rce_auto_save_max_age_ms":86400000,"COURSE_ID":"39790","RICH_CONTENT_APP_HOST":"rich-content-iad.inscloudgate.net","RICH_CONTENT_SKIP_SIDEBAR":null,"JWT":"ZXlKaGJHY2lPaUprYVhJaUxDSmxibU1pT2lKQk1qVTJSME5OSW4wLi4xUEdUSmlGaTUyV1lZVGtMLmZvRVJaeGVFTzQ3UzV1aHFleEhFQkg1X2RYOWJZc3ZEblNuRDdpWEZJM3FSeGs5b2VxSUtYb1BIbEM0Z2xrUnB5aUsxV292TXRpdnBWaFB5czFKN1o5MWtZSzIxY0FvQ2Z6Q2YzczFIWS1VbW5UaUpJbk4xcXQ4YmcxX1lZM0cwTmZfbTI4dG9fNmJnbENGaVR6SzJENW9vR3hfTnVhelFac2VhWW9uRExmOFZjMndUbi15bTBkOWNKYU9GVWM0WWM1enlSSmpDRHdwVUl5aVoycHR4ajJ4NDNwbVZLcmFfUzhrX1V3RUVqRFN6TzlfbHllZzZwbTZ3YWtubElxMFVJZlJPR1p2S3hVZkhRLWZ1S2p4emlEQ3hoUzZpTmN2cUItM3F3b2huS21XWkdWZjZGOGxfY1lmVG8tQ25feE1UQjYtdTlEWUlEVDRLcnV3ZjlDTDlxM1NXcjg2N3ZqQ3M2TlBKODBNc0hmTjVBUjhFU3U1RGdKODlNRUd0V3V4Q0IySzNha2J2VlFRNDlkRFdZN1NfU1JZdFFVTW9XeFh6b2dMTEo0aUVvVWFqS2xtNWk0QkZOUlFtUEUzdi1pSXM3YlZhYS16bE9fYjlZNDh6QzNiSWZxcjJKaEduQVJNTlpFOWVuUXctRHRyYzQ4Mk5zYkRoeE9TcFZtS0FGREh4a21mc2thM0ZIVzBqY1Z2cGVzX0xUNnZtVERmdC1ObEZwcmkxYkdhWExoNDNNVjVFY1NjLUdlMEZDR25tZGQ1TmJqZkVfcmw1eXJ3a0hvOE1Fd215Z1lLNm5Ld0RpeFY5ZWtFNTVKaFYtal9oUl9iU1FWWTNLZFdhY0t1WnVkN3pCMUI4TVRqUFplVkJub21tTS05bHRBODhWLTVyMURtaTJjTEZaa25zSnJJajhFdW00d01YRUhWZkJRbFJYSVZtUmFKZmFJZnoyeGxSVG04bFpGTXY4WXEzc2x5Y1MzbEJCNUtJcElnMmRiV1REV0YyN3BmR3FfeG1PbmRVM24yRlM1dWEyT2xVNnN4c29JejdVSWNjZnpWWTByemFaZjktLllUNjZhQmNrOHctNXpQRXNvSXM5SUE=","RICH_CONTENT_CAN_UPLOAD_FILES":false,"RICH_CONTENT_FILES_TAB_DISABLED":false,"RICH_CONTENT_INST_RECORD_TAB_DISABLED":false,"ASSIGNMENT_ID":"204014","PREREQS":{},"EULA_URL":null,"EXTERNAL_TOOLS":[{"id":"10","domain":"google-drive-lti-iad-prod.instructure.com","url":"https://google-drive-lti-iad-prod.instructure.com/lti/course-navigation","consumer_key":"e0307e12-74eb-4d4d-a066-8266529ed735","name":"Google Apps","description":"Allows you to pull in documents from Google Drive to Canvas","created_at":"2017-02-09T14:02:48-08:00","updated_at":"2020-10-13T13:42:19-07:00","allow_membership_service_access":false,"privacy_level":"name_only","custom_fields":{"account_id":"$Canvas.account.id","assignment_title":"$Canvas.assignment.title","base_url":"$Canvas.api.baseUrl","collaboration_members_url":"$Canvas.api.collaborationMembers.url","domain":"$Canvas.api.domain","group_context_ids":"$Canvas.group.contextIds","masquerading_user_id":"$Canvas.masqueradingUser.userId","membership_service_url":"$ToolProxyBinding.memberships.url","time_zone":"$Person.address.timezone","user_id":"$Canvas.user.id","previous_context_ids":"$Canvas.course.previousContextIds"},"workflow_state":"name_only","vendor_help_link":null,"account_navigation":null,"similarity_detection":null,"assignment_edit":null,"assignment_menu":null,"assignment_index_menu":null,"assignment_group_menu":null,"assignment_selection":{"message_type":"ContentItemSelectionRequest","text":"Google Docs Cloud Assignment","url":"https://google-drive-lti-iad-prod.instructure.com/lti/cloud-template-selection","label":"Google Docs Cloud Assignment","selection_width":800,"selection_height":400,"icon_url":"https://google-drive-lti-iad-prod.instructure.com/assets/google_drive_icon-ba12a17e3e3d7f70f910b17f1b4c0500ff0298ad087a93a6c133ca623c40f0f8.png"},"assignment_view":null,"collaboration":{"canvas_icon_class":"icon-lti","icon_url":"https://google-drive-lti-iad-prod.instructure.com/assets/google_drive_icon-ba12a17e3e3d7f70f910b17f1b4c0500ff0298ad087a93a6c133ca623c40f0f8.png","message_type":"ContentItemSelectionRequest","text":"Google Drive","url":"https://google-drive-lti-iad-prod.instructure.com/lti/collaboration-content-selection","label":"Google Drive","selection_width":800,"selection_height":400},"course_assignments_menu":null,"course_home_sub_navigation":null,"course_navigation":{"text":"Google Drive","url":"https://google-drive-lti-iad-prod.instructure.com/lti/course-navigation","label":"Google Drive","selection_width":800,"selection_height":400,"icon_url":"https://google-drive-lti-iad-prod.instructure.com/assets/google_drive_icon-ba12a17e3e3d7f70f910b17f1b4c0500ff0298ad087a93a6c133ca623c40f0f8.png"},"course_settings_sub_navigation":null,"discussion_topic_menu":null,"discussion_topic_index_menu":null,"editor_button":{"icon_url":"https://google-drive-lti-iad-prod.instructure.com/icon.png","message_type":"ContentItemSelectionRequest","selection_height":600,"selection_width":700,"url":"https://google-drive-lti-iad-prod.instructure.com/lti/rce-content-selection","label":"Google Apps"},"file_menu":null,"file_index_menu":null,"global_navigation":null,"homework_submission":{"canvas_icon_class":"icon-lti","icon_url":"https://google-drive-lti-iad-prod.instructure.com/assets/google_drive_icon-ba12a17e3e3d7f70f910b17f1b4c0500ff0298ad087a93a6c133ca623c40f0f8.png","message_type":"ContentItemSelectionRequest","text":"Google Drive","url":"https://google-drive-lti-iad-prod.instructure.com/lti/homework-content-selection","label":"Google Drive","selection_width":800,"selection_height":400},"link_selection":{"enabled":"true","message_type":"ContentItemSelectionRequest","selection_height":600,"selection_width":700,"text":"Google Drive","url":"https://google-drive-lti-iad-prod.instructure.com/lti/module-content-selection","label":"Google Drive","icon_url":"https://google-drive-lti-iad-prod.instructure.com/assets/google_drive_icon-ba12a17e3e3d7f70f910b17f1b4c0500ff0298ad087a93a6c133ca623c40f0f8.png"},"migration_selection":null,"module_menu":null,"module_group_menu":null,"module_index_menu":null,"post_grades":null,"quiz_menu":null,"quiz_index_menu":null,"resource_selection":null,"submission_type_selection":null,"student_context_card":null,"tool_configuration":null,"user_navigation":null,"wiki_index_menu":null,"wiki_page_menu":null,"is_rce_favorite":true,"icon_url":"https://google-drive-lti-iad-prod.instructure.com/assets/google_drive_icon-ba12a17e3e3d7f70f910b17f1b4c0500ff0298ad087a93a6c133ca623c40f0f8.png","not_selectable":false,"version":"1.1"}],"PERMISSIONS":{"context":{"read_as_admin":false,"manage_assignments":false},"assignment":{"update":false,"submit":true}},"ROOT_OUTCOME_GROUP":{"id":"17906","title":"Introduction to Computer Programming for the Arts","vendor_guid":null,"url":"/api/v1/courses/39790/outcome_groups/17906","subgroups_url":"/api/v1/courses/39790/outcome_groups/17906/subgroups","outcomes_url":"/api/v1/courses/39790/outcome_groups/17906/outcomes","can_edit":false,"import_url":"/api/v1/courses/39790/outcome_groups/17906/import","context_id":"39790","context_type":"Course","description":null},"SIMILARITY_PLEDGE":null,"CONFETTI_ENABLED":false,"USER_ASSET_STRING":"user_44347","SUBMIT_ASSIGNMENT":{"ALLOWED_EXTENSIONS":["pdf"],"ID":"204014","GROUP_ID_FOR_USER":null},"badge_counts":{"submissions":0},"notices":[],"active_context_tab":"assignments"};
+  </script>
+
+  <link rel="preload" href="./Lab 9_ JavaScript for the Web_files/variables-8391c84da435c9cfceea2b2b3317ff66.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/Los_Angeles-d9cac65c52.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/Los_Angeles-d9cac65c52.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/en_US-80a0ce259b.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/main-e-07c5978112.js" as="script" type="text/javascript"><script>
+//<![CDATA[
+
+      ;["https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/f5945a247b05aeb97dd7ac8c6403aedf/variables-8391c84da435c9cfceea2b2b3317ff66.js", "https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/America/Los_Angeles-d9cac65c52.js", "https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/America/Los_Angeles-d9cac65c52.js", "https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/en_US-80a0ce259b.js", "https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/main-e-07c5978112.js"].forEach(function(src) {
+        var s = document.createElement('script')
+        s.src = src
+        s.async = false
+        document.head.appendChild(s)
+      });
+//]]>
+</script><script src="./Lab 9_ JavaScript for the Web_files/variables-8391c84da435c9cfceea2b2b3317ff66.js"></script><script src="./Lab 9_ JavaScript for the Web_files/Los_Angeles-d9cac65c52.js"></script><script src="./Lab 9_ JavaScript for the Web_files/Los_Angeles-d9cac65c52.js"></script><script src="./Lab 9_ JavaScript for the Web_files/en_US-80a0ce259b.js"></script><script src="./Lab 9_ JavaScript for the Web_files/main-e-07c5978112.js"></script><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/0-c-de89641551.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/1-c-9b44b2f2f0.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/2-c-c6bdab831d.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/3-c-bf5d0b5766.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/4-c-77108e1975.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/5-c-e959182166.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/7-c-086ca38ea9.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/12-c-8e44d6013e.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/15-c-247a393912.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/17-c-55328f2d21.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/19-c-c644a4a81b.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/21-c-df7a8ed9cc.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/33-c-bd3b5dd92e.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/36-c-dbf69924cd.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/37-c-f64e666210.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/40-c-1f46d04b37.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/46-c-7384d0f359.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/50-c-74028c2e0e.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/69-c-1b02d1030a.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/79-c-b2133b98a5.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/103-c-3d69dbc511.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/assignment_show-c-29796d6d04.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/6-c-ddb3f25666.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/8-c-29da756dd2.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/14-c-be8f87d0fa.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/18-c-874fb35b56.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/22-c-e8cd9231ba.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/26-c-b00d06a929.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/43-c-3e0d2bf545.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/91-c-96a650df65.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/111-c-c458de906a.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/117-c-d1c653c052.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/163-c-133086f527.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/164-c-79c1b6ec0e.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/167-c-ce95c3a9c2.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/submit_assignment-c-a8d44cd756.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/9-c-6e3cea8fd1.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/10-c-81f91f69d4.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/13-c-2138eecf64.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/16-c-6585aef35a.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/24-c-86a47bd818.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/29-c-8ffbe5da53.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/47-c-a04a2cd970.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/53-c-f79aac67d9.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/56-c-43e15e2407.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/54-c-c589b10f13.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/63-c-a84e9ef160.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/67-c-7a0874409e.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/72-c-8505cc6821.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/77-c-dcc0096d5a.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/87-c-04b1fa9cea.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/121-c-b6c6adb93d.js" as="script" type="text/javascript"><link rel="preload" href="./Lab 9_ JavaScript for the Web_files/edit_rubric-c-71ad4cc8e2.js" as="script" type="text/javascript"><script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('assignment_show');
+(window.bundles || (window.bundles = [])).push('submit_assignment');
+(window.bundles || (window.bundles = [])).push('edit_rubric');
+(window.bundles || (window.bundles = [])).push('navigation_header');
+//]]>
+</script>
+  <title>Lab 9: JavaScript for the Web</title>
+  
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', "UA-9138420-1", 'auto');
+      ga('set', 'userId', "34beacbe43013b9a2fd2f5f0d1b0ca2f");
+    ga('set', 'dimension1', "100");
+    ga('set', 'dimension2', "00");
+    ga('set', 'dimension3', "0");
+    ga('set', 'dimension4', "Higher Ed");
+    ga('send', 'pageview');
+    (window.requestIdleCallback || window.setTimeout)(function(){
+      var s=document.createElement('script'), m=document.getElementsByTagName('script')[0]
+      s.async=1; s.src='https://www.google-analytics.com/analytics.js'
+      m.parentNode.insertBefore(s,m)
+    });
+  </script>
+
+
+
+<script src="./Lab 9_ JavaScript for the Web_files/Canvasproduction.js"></script><style type="text/css"></style><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/0-c-de89641551.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/1-c-9b44b2f2f0.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/2-c-c6bdab831d.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/3-c-bf5d0b5766.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/4-c-77108e1975.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/5-c-e959182166.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/7-c-086ca38ea9.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/12-c-8e44d6013e.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/15-c-247a393912.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/17-c-55328f2d21.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/19-c-c644a4a81b.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/21-c-df7a8ed9cc.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/33-c-bd3b5dd92e.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/36-c-dbf69924cd.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/37-c-f64e666210.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/40-c-1f46d04b37.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/46-c-7384d0f359.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/50-c-74028c2e0e.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/69-c-1b02d1030a.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/79-c-b2133b98a5.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/103-c-3d69dbc511.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/assignment_show-c-29796d6d04.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/6-c-ddb3f25666.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/8-c-29da756dd2.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/14-c-be8f87d0fa.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/18-c-874fb35b56.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/22-c-e8cd9231ba.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/26-c-b00d06a929.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/43-c-3e0d2bf545.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/91-c-96a650df65.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/111-c-c458de906a.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/117-c-d1c653c052.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/163-c-133086f527.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/164-c-79c1b6ec0e.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/167-c-ce95c3a9c2.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/submit_assignment-c-a8d44cd756.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/9-c-6e3cea8fd1.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/10-c-81f91f69d4.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/13-c-2138eecf64.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/16-c-6585aef35a.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/24-c-86a47bd818.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/29-c-8ffbe5da53.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/47-c-a04a2cd970.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/53-c-f79aac67d9.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/56-c-43e15e2407.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/54-c-c589b10f13.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/63-c-a84e9ef160.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/67-c-7a0874409e.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/72-c-8505cc6821.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/77-c-dcc0096d5a.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/87-c-04b1fa9cea.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/121-c-b6c6adb93d.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/edit_rubric-c-71ad4cc8e2.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/inst_fs_service_worker-c-b8bc63fc5e.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/734-c-86f82a9450.js"></script><style type="text/css" data-glamor=""></style><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/57-c-2f50a6eebc.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/677-c-c362de33b4.js"></script><link rel="stylesheet" href="./Lab 9_ JavaScript for the Web_files/googleDocsTreeView-a7a061ea35.css" data-loaded-by-brandablecss="true"><link rel="stylesheet" href="./Lab 9_ JavaScript for the Web_files/KeyboardShortcuts-f4493af988.css" data-loaded-by-brandablecss="true"><style type="text/css">.mejs-offscreen{clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px);clip-path:polygon(0px 0,0 0,0 0,0 0);position:absolute!important;height:1px;width:1px;overflow:hidden}.mejs-container{position:relative;background:#000;font-family:Helvetica,Arial,serif;text-align:left;vertical-align:top;text-indent:0}.mejs-fill-container,.mejs-fill-container .mejs-container{width:100%;height:100%}.mejs-fill-container{overflow:hidden}.mejs-container:focus{outline:0}.me-plugin{position:absolute}.mejs-embed,.mejs-embed body{width:100%;height:100%;margin:0;padding:0;background:#000;overflow:hidden}.mejs-fullscreen{overflow:hidden!important}.mejs-container-fullscreen{position:fixed;left:0;top:0;right:0;bottom:0;overflow:hidden;z-index:1000}.mejs-container-fullscreen .mejs-mediaelement,.mejs-container-fullscreen video{width:100%;height:100%}.mejs-clear{clear:both}.mejs-background{position:absolute;top:0;left:0}.mejs-mediaelement{position:absolute;top:0;left:0;width:100%;height:100%}.mejs-poster{position:absolute;top:0;left:0;background-size:contain;background-position:50% 50%;background-repeat:no-repeat}:root .mejs-poster img{display:none}.mejs-poster img{border:0;padding:0}.mejs-overlay{position:absolute;top:0;left:0}.mejs-overlay-play{cursor:pointer}.mejs-overlay-button{position:absolute;top:50%;left:50%;width:100px;height:100px;margin:-50px 0 0 -50px;background:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/746c3af7a145a09239a36e5ef61cfea0.svg) no-repeat}.no-svg .mejs-overlay-button{background-image:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/716436fb3df0d29e6b37dd62d952676a.png)}.mejs-overlay:hover .mejs-overlay-button{background-position:0 -100px}.mejs-overlay-loading{position:absolute;top:50%;left:50%;width:80px;height:80px;margin:-40px 0 0 -40px;background:#333;background:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(0,0,0,.9);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.9)),to(rgba(0,0,0,.9)));background:-webkit-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-moz-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-o-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-ms-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:linear-gradient(rgba(50,50,50,.9),rgba(0,0,0,.9))}.mejs-overlay-loading span{display:block;width:80px;height:80px;background:transparent url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/76b326f4d44222126fee21076595bef5.gif) 50% 50% no-repeat}.mejs-container .mejs-controls{position:absolute;list-style-type:none;margin:0;padding:0;bottom:0;left:0;background:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(0,0,0,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.7)),to(rgba(0,0,0,.7)));background:-webkit-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-moz-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-o-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-ms-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:linear-gradient(rgba(50,50,50,.7),rgba(0,0,0,.7));height:30px;width:100%}.mejs-container .mejs-controls div{list-style-type:none;background-image:none;display:block;float:left;margin:0;padding:0;width:26px;height:26px;font-size:11px;line-height:11px;font-family:Helvetica,Arial,serif;border:0}.mejs-controls .mejs-button button{cursor:pointer;display:block;font-size:0;line-height:0;text-decoration:none;margin:7px 5px;padding:0;position:absolute;height:16px;width:16px;border:0;background:transparent url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/40f56f5a736da4effeb790cedb8a52f0.svg) no-repeat}.no-svg .mejs-controls .mejs-button button{background-image:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/24a0227fbdd3acfd86ff03fc3fc6c8a4.png)}.mejs-controls .mejs-button button:focus{outline:dotted 1px #999}.mejs-container .mejs-controls .mejs-time{color:#fff;display:block;height:17px;width:auto;padding:10px 3px 0;overflow:hidden;text-align:center;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}.mejs-container .mejs-controls .mejs-time a{color:#fff;font-size:11px;line-height:12px;display:block;float:left;margin:1px 2px 0 0;width:auto}.mejs-controls .mejs-play button{background-position:0 0}.mejs-controls .mejs-pause button{background-position:0 -16px}.mejs-controls .mejs-stop button{background-position:-112px 0}.mejs-controls div.mejs-time-rail{direction:ltr;width:200px;padding-top:5px}.mejs-controls .mejs-time-rail span,.mejs-controls .mejs-time-rail a{display:block;position:absolute;width:180px;height:10px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;cursor:pointer}.mejs-controls .mejs-time-rail .mejs-time-total{margin:5px;background:#333;background:rgba(50,50,50,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(30,30,30,.8)),to(rgba(60,60,60,.8)));background:-webkit-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-moz-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-o-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-ms-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:linear-gradient(rgba(30,30,30,.8),rgba(60,60,60,.8))}.mejs-controls .mejs-time-rail .mejs-time-buffering{width:100%;background-image:-o-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255,255,255,.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255,255,255,.15)),color-stop(0.75,rgba(255,255,255,.15)),color-stop(0.75,transparent),to(transparent));background-image:-webkit-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-moz-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-ms-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);-webkit-background-size:15px 15px;-moz-background-size:15px 15px;-o-background-size:15px 15px;background-size:15px 15px;-webkit-animation:buffering-stripes 2s linear infinite;-moz-animation:buffering-stripes 2s linear infinite;-ms-animation:buffering-stripes 2s linear infinite;-o-animation:buffering-stripes 2s linear infinite;animation:buffering-stripes 2s linear infinite}@-webkit-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-moz-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-ms-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-o-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}.mejs-controls .mejs-time-rail .mejs-time-loaded{background:#3caac8;background:rgba(60,170,200,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(44,124,145,.8)),to(rgba(78,183,212,.8)));background:-webkit-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-moz-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-o-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-ms-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:linear-gradient(rgba(44,124,145,.8),rgba(78,183,212,.8));width:0}.mejs-controls .mejs-time-rail .mejs-time-current{background:#fff;background:rgba(255,255,255,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(255,255,255,.9)),to(rgba(200,200,200,.8)));background:-webkit-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-moz-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-o-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-ms-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:linear-gradient(rgba(255,255,255,.9),rgba(200,200,200,.8));width:0}.mejs-controls .mejs-time-rail .mejs-time-handle{display:none;position:absolute;margin:0;width:10px;background:#fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;cursor:pointer;border:solid 2px #333;top:-2px;text-align:center}.mejs-controls .mejs-time-rail .mejs-time-float{position:absolute;display:none;background:#eee;width:36px;height:17px;border:solid 1px #333;top:-26px;margin-left:-18px;text-align:center;color:#111}.mejs-controls .mejs-time-rail .mejs-time-float-current{margin:2px;width:30px;display:block;text-align:center;left:0}.mejs-controls .mejs-time-rail .mejs-time-float-corner{position:absolute;display:block;width:0;height:0;line-height:0;border:solid 5px #eee;border-color:#eee transparent transparent;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;top:15px;left:13px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float{width:48px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float-current{width:44px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float-corner{left:18px}.mejs-controls .mejs-fullscreen-button button{background-position:-32px 0}.mejs-controls .mejs-unfullscreen button{background-position:-32px -16px}.mejs-controls .mejs-volume-button{}.mejs-controls .mejs-mute button{background-position:-16px -16px}.mejs-controls .mejs-unmute button{background-position:-16px 0}.mejs-controls .mejs-volume-button{position:relative}.mejs-controls .mejs-volume-button .mejs-volume-slider{height:115px;width:25px;background:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;top:-115px;left:0;z-index:1;position:absolute;margin:0}.mejs-controls .mejs-volume-button:hover{-webkit-border-radius:0 0 4px 4px;-moz-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-total{position:absolute;left:11px;top:8px;width:2px;height:100px;background:#ddd;background:rgba(255,255,255,.5);margin:0}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-current{position:absolute;left:11px;top:8px;width:2px;height:100px;background:#ddd;background:rgba(255,255,255,.9);margin:0}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-handle{position:absolute;left:4px;top:-3px;width:16px;height:6px;background:#ddd;background:rgba(255,255,255,.9);cursor:N-resize;-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;margin:0}.mejs-controls a.mejs-horizontal-volume-slider{height:26px;width:56px;position:relative;display:block;float:left;vertical-align:middle}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total{position:absolute;left:0;top:11px;width:50px;height:8px;margin:0;padding:0;font-size:1px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;background:#333;background:rgba(50,50,50,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(30,30,30,.8)),to(rgba(60,60,60,.8)));background:-webkit-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-moz-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-o-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-ms-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:linear-gradient(rgba(30,30,30,.8),rgba(60,60,60,.8))}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current{position:absolute;left:0;top:11px;width:50px;height:8px;margin:0;padding:0;font-size:1px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;background:#fff;background:rgba(255,255,255,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(255,255,255,.9)),to(rgba(200,200,200,.8)));background:-webkit-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-moz-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-o-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-ms-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:linear-gradient(rgba(255,255,255,.9),rgba(200,200,200,.8))}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-handle{display:none}.mejs-controls .mejs-captions-button{position:relative}.mejs-controls .mejs-captions-button button{background-position:-48px 0}.mejs-controls .mejs-captions-button .mejs-captions-selector{position:absolute;bottom:26px;right:-51px;width:85px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:10px 10px 0;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-captions-button .mejs-captions-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li{margin:0 0 6px;padding:0;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li label{width:55px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:10px}.mejs-controls .mejs-captions-button .mejs-captions-translations{font-size:10px;margin:0 0 5px}.mejs-chapters{position:absolute;top:0;left:0;border-right:solid 1px #fff;width:10000px;z-index:1}.mejs-chapters .mejs-chapter{position:absolute;float:left;background:#222;background:rgba(0,0,0,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.7)),to(rgba(0,0,0,.7)));background:-webkit-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-moz-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-o-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-ms-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:linear-gradient(rgba(50,50,50,.7),rgba(0,0,0,.7));filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr=#323232, endColorstr=#000000);overflow:hidden;border:0}.mejs-chapters .mejs-chapter .mejs-chapter-block{font-size:11px;color:#fff;padding:5px;display:block;border-right:solid 1px #333;border-bottom:solid 1px #333;cursor:pointer}.mejs-chapters .mejs-chapter .mejs-chapter-block-last{border-right:0}.mejs-chapters .mejs-chapter .mejs-chapter-block:hover{background:#666;background:rgba(102,102,102,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(102,102,102,.7)),to(rgba(50,50,50,.6)));background:-webkit-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-moz-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-o-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-ms-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:linear-gradient(rgba(102,102,102,.7),rgba(50,50,50,.6));filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr=#666666, endColorstr=#323232)}.mejs-chapters .mejs-chapter .mejs-chapter-block .ch-title{font-size:12px;font-weight:700;display:block;white-space:nowrap;text-overflow:ellipsis;margin:0 0 3px;line-height:12px}.mejs-chapters .mejs-chapter .mejs-chapter-block .ch-timespan{font-size:12px;line-height:12px;margin:3px 0 4px;display:block;white-space:nowrap;text-overflow:ellipsis}.mejs-captions-layer{position:absolute;bottom:0;left:0;text-align:center;line-height:20px;font-size:16px;color:#fff}.mejs-captions-layer a{color:#fff;text-decoration:underline}.mejs-captions-layer[lang=ar]{font-size:20px;font-weight:400}.mejs-captions-position{position:absolute;width:100%;bottom:15px;left:0}.mejs-captions-position-hover{bottom:35px}.mejs-captions-text,.mejs__captions-text *{padding:0;background:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(20,20,20,.5);white-space:pre-wrap;-webkit-box-shadow:5px 0 0 rgba(20,20,20,.5),-5px 0 0 rgba(20,20,20,.5);box-shadow:5px 0 0 rgba(20,20,20,.5),-5px 0 0 rgba(20,20,20,.5)}.me-cannotplay{}.me-cannotplay a{color:#fff;font-weight:700}.me-cannotplay span{padding:15px;display:block}.mejs-controls .mejs-loop-off button{background-position:-64px -16px}.mejs-controls .mejs-loop-on button{background-position:-64px 0}.mejs-controls .mejs-backlight-off button{background-position:-80px -16px}.mejs-controls .mejs-backlight-on button{background-position:-80px 0}.mejs-controls .mejs-picturecontrols-button{background-position:-96px 0}.mejs-contextmenu{position:absolute;width:150px;padding:10px;border-radius:4px;top:0;left:0;background:#fff;border:solid 1px #999;z-index:1001}.mejs-contextmenu .mejs-contextmenu-separator{height:1px;font-size:0;margin:5px 6px;background:#333}.mejs-contextmenu .mejs-contextmenu-item{font-family:Helvetica,Arial,serif;font-size:12px;padding:4px 6px;cursor:pointer;color:#333}.mejs-contextmenu .mejs-contextmenu-item:hover{background:#2C7C91;color:#fff}.mejs-controls .mejs-sourcechooser-button{position:relative}.mejs-controls .mejs-sourcechooser-button button{background-position:-128px 0}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector{position:absolute;bottom:26px;right:-10px;width:130px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:10px;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li{margin:0 0 6px;padding:0;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li label{width:100px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:10px}.mejs-postroll-layer{position:absolute;bottom:0;left:0;width:100%;height:100%;background:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);z-index:1000;overflow:hidden}.mejs-postroll-layer-content{width:100%;height:100%}.mejs-postroll-close{position:absolute;right:0;top:0;background:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);color:#fff;padding:4px;z-index:100;cursor:pointer}div.mejs-speed-button{width:46px!important;position:relative}.mejs-controls .mejs-button.mejs-speed-button button{background:transparent;width:36px;font-size:11px;line-height:normal;color:#fff}.mejs-controls .mejs-speed-button .mejs-speed-selector{position:absolute;top:-100px;left:-10px;width:60px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:0;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li label.mejs-speed-selected{color:rgba(33,248,248,1)}.mejs-controls .mejs-speed-button .mejs-speed-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li{margin:0 0 6px;padding:0 10px;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li label{width:60px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:11px;color:#fff;margin-left:5px;cursor:pointer}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li:hover{background-color:#c8c8c8!important;background-color:rgba(255,255,255,.4)!important}.mejs-controls .mejs-button.mejs-jump-forward-button{background:transparent url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/15e1ac8cbacc2efdf1ac2677de48a253.png) no-repeat 3px 3px}.mejs-controls .mejs-button.mejs-jump-forward-button button{background:transparent;font-size:9px;line-height:normal;color:#fff}.mejs-controls .mejs-button.mejs-skip-back-button{background:transparent url(https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/cd6dc830eb45b3a5a96bbc936ff54846.png) no-repeat 3px 3px}.mejs-controls .mejs-button.mejs-skip-back-button button{background:transparent;font-size:9px;line-height:normal;color:#fff}</style><style type="text/css">/*
+ * Copyright (C) 2014 - present Instructure, Inc.
+ *
+ * This file is part of Canvas.
+ *
+ * Canvas is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU Affero General Public License as published by the Free
+ * Software Foundation, version 3 of the License.
+ *
+ * Canvas is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along
+ * with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/* customizations to mediaelementplayer css */
+
+/*
+  Because this file is not proccessed by our brandable_css sass pipeline,
+  it cannot use our sass-direction helpers. So we have to handle RTL manually
+  by putting direction-specific styles in [dir="ltr"] or [dir="rtl"] blocks.
+*/
+/* stylelint-disable property-disallowed-list, declaration-property-value-disallowed-list */
+
+/* good menu widths */
+.mejs-sourcechooser-selector {
+  width: 160px;
+}
+.mejs-sourcechooser-selector label {
+  width: 160px !important;
+}
+
+.mejs-captions-selector {
+  width: 105px;
+}
+[dir="ltr"]  .mejs-captions-selector { text-align: left }
+[dir="rtl"]  .mejs-captions-selector { text-align: right }
+
+.mejs-captions-selector label {
+  width: 70px !important;
+}
+
+/* Subtitile upload link */
+.mejs-captions-selector .upload-track {
+  color: white;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+[dir="ltr"] .mejs-captions-selector .upload-track {
+  margin-right: 0px;
+  margin-left: 5px;
+  float: left;
+}
+[dir="rtl"] .mejs-captions-selector .upload-track {
+  margin-left: 0px;
+  margin-right: 5px;
+  float: right;
+}
+
+/* "x" button to remove a subtitle */
+.mejs-captions-selector a[data-remove] {
+  position: absolute;
+  top: 0;
+  color: white;
+}
+[dir="ltr"] .mejs-captions-selector a[data-remove] { right: 0 }
+[dir="rtl"] .mejs-captions-selector a[data-remove] { left: 0 }
+
+
+/* style menu items without a radio button */
+.mejs-button [role="menu"] {
+  padding: 0 !important;
+}
+ /* compensate for above 0 padding */
+ .mejs-button [role="menu"] ul li {
+  position: relative;
+  padding: 0 10px !important;
+}
+/* add a hover effect */
+.mejs-button [role="menu"] ul li:hover {
+  background-color: #c8c8c8 !important;
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+.mejs-button [role="menu"] ul li input {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+.mejs-button [role="menu"] ul li label {
+  cursor: pointer;
+}
+[dir="ltr"] .mejs-button [role="menu"] ul li label { margin-left: 5px }
+[dir="rtl"] .mejs-button [role="menu"] ul li label { margin-right: 5px }
+
+
+.mejs-button [role="menu"] label.mejs-selected {
+  color: #21f8f8 !important;
+}
+
+/* stylelint-enable property-disallowed-list, declaration-property-value-disallowed-list */
+</style><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/270-c-2c41a99d2d.js"></script><link rel="stylesheet" href="./Lab 9_ JavaScript for the Web_files/PaginatedView-bf30c3a7d1.css" data-loaded-by-brandablecss="true"><link rel="stylesheet" href="./Lab 9_ JavaScript for the Web_files/TreeBrowser-486bca8feb.css" data-loaded-by-brandablecss="true"><link rel="stylesheet" href="./Lab 9_ JavaScript for the Web_files/MoveOutcomeDialog-9d1c3f4686.css" data-loaded-by-brandablecss="true"><script type="text/javascript" src="./Lab 9_ JavaScript for the Web_files/BlueCanvas.min.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/32-c-17cdef0475.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/30-c-9f98aad5ab.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/76-c-df7a85b4bd.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/109-c-6222301452.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/743-c-67f83b73aa.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/747-c-8fcd20bb8e.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/11-c-7f6afa6b2d.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/23-c-02e3dcf54c.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/31-c-b8f1691793.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/27-c-b1607e55e3.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/38-c-5534edc6d3.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/49-c-071803a38e.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/60-c-6564e99276.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/71-c-e549aa97a6.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/84-c-908d94e2ca.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/96-c-b8037d9b17.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/128-c-7dd400c0af.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/171-c-68eb25ae8c.js"></script><script charset="utf-8" src="./Lab 9_ JavaScript for the Web_files/canvas-rce-async-chunk-c-e3c12f91f1.js"></script></head>
+
+<body class="with-left-side course-menu-expanded with-right-side assignments primary-nav-expanded context-course_39790 responsive_awareness responsive_misc webkit chrome no-touch" data-new-gr-c-s-check-loaded="14.994.0" data-gr-ext-installed="">
+
+<noscript>
+  <div role="alert" class="ic-flash-static ic-flash-error">
+    <div class="ic-flash__icon" aria-hidden="true">
+      <i class="icon-warning"></i>
+    </div>
+    <h1>You need to have JavaScript enabled in order to access this site.</h1>
+  </div>
+</noscript>
+
+
+
+
+<ul id="flash_message_holder"></ul>
+<div id="flash_screenreader_holder" role="alert" aria-live="assertive" aria-relevant="additions" class="screenreader-only" aria-atomic="false"></div>
+
+<div id="application" class="ic-app">
+  
+
+
+    <header id="mobile-header" class="no-print">
+      <button type="button" class="Button Button--icon-action-rev Button--large  mobile-header-hamburger">
+        <i class="icon-solid icon-hamburger"></i>
+        <span id="mobileHeaderInboxUnreadBadge" class="menu-item__badge" style="min-width: 0; top: 12px; height: 12px; right: 6px; display:none;"></span>
+        <span class="screenreader-only">Dashboard</span>
+      </button>
+        <a class="mobile-header-title expandable" href="https://canvas.ucsc.edu/courses/39790" role="button" aria-controls="mobileContextNavContainer">
+          <i style="float: right; margin-top: 2px; padding-right: inherit" id="mobileHeaderArrowIcon" class="icon-arrow-open-down"></i>
+          <div>ART-101-01</div>
+          <div style="padding-right: 30px">Lab 9: JavaScript for the Web</div>
+        </a>
+    </header>
+    <nav id="mobileContextNavContainer"></nav>
+  <header id="header" class="ic-app-header no-print ">
+    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#content" id="skip_navigation_link">Skip To Content</a>
+      <div role="region" class="ic-app-header__main-navigation" aria-label="Global Navigation">
+        <div class="ic-app-header__logomark-container">
+          <a href="https://canvas.ucsc.edu/" class="ic-app-header__logomark">
+            <span class="screenreader-only">Dashboard</span>
+          </a>
+        </div>
+        <ul id="menu" class="ic-app-header__menu-list">
+            <li class="menu-item ic-app-header__menu-list-item ">
+              <button id="global_nav_profile_link" class="ic-app-header__menu-list-link">
+                <div class="menu-item-icon-container">
+                  <div aria-hidden="true" class="fs-exclude ic-avatar ">
+                    <img src="./Lab 9_ JavaScript for the Web_files/52e7c552-6ebd-48ac-ba97-ce58f33e81a7" alt="Eloise Shevin">
+                  </div>
+                  <span class="menu-item__badge"></span>
+                </div>
+                <div class="menu-item__text">
+                  Account
+                </div>
+              </button>
+            </li>
+          <li class="ic-app-header__menu-list-item ">
+            <a id="global_nav_dashboard_link" href="https://canvas.ucsc.edu/" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--dashboard" version="1.1" x="0" y="0" viewBox="0 0 280 200" enable-background="new 0 0 280 200" xml:space="preserve"><path d="M273.09,180.75H197.47V164.47h62.62A122.16,122.16,0,1,0,17.85,142a124,124,0,0,0,2,22.51H90.18v16.29H6.89l-1.5-6.22A138.51,138.51,0,0,1,1.57,142C1.57,65.64,63.67,3.53,140,3.53S278.43,65.64,278.43,142a137.67,137.67,0,0,1-3.84,32.57ZM66.49,87.63,50.24,71.38,61.75,59.86,78,76.12Zm147,0L202,76.12l16.25-16.25,11.51,11.51ZM131.85,53.82v-23h16.29v23Zm15.63,142.3a31.71,31.71,0,0,1-28-16.81c-6.4-12.08-15.73-72.29-17.54-84.25a8.15,8.15,0,0,1,13.58-7.2c8.88,8.21,53.48,49.72,59.88,61.81a31.61,31.61,0,0,1-27.9,46.45ZM121.81,116.2c4.17,24.56,9.23,50.21,12,55.49A15.35,15.35,0,1,0,161,157.3C158.18,152,139.79,133.44,121.81,116.2Z"></path></svg>
+
+              </div>
+              <div class="menu-item__text">Dashboard</div>
+            </a>
+          </li>
+            <li class="menu-item ic-app-header__menu-list-item ic-app-header__menu-list-item--active">
+              <button id="global_nav_courses_link" class="ic-app-header__menu-list-link">
+                <div class="menu-item-icon-container" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--courses" version="1.1" x="0" y="0" viewBox="0 0 280 259" enable-background="new 0 0 280 259" xml:space="preserve"><path d="M73.31,198c-11.93,0-22.22,8-24,18.73a26.67,26.67,0,0,0-.3,3.63v.3a22,22,0,0,0,5.44,14.65,22.47,22.47,0,0,0,17.22,8H200V228.19h-134V213.08H200V198Zm21-105.74h90.64V62H94.3ZM79.19,107.34V46.92H200v60.42Zm7.55,30.21V122.45H192.49v15.11ZM71.65,16.71A22.72,22.72,0,0,0,49,39.36V190.88a41.12,41.12,0,0,1,24.32-8h157V16.71ZM33.88,39.36A37.78,37.78,0,0,1,71.65,1.6H245.36V198H215.15v45.32h22.66V258.4H71.65a37.85,37.85,0,0,1-37.76-37.76Z"></path></svg>
+
+                </div>
+                <div class="menu-item__text">
+                  Courses
+                </div>
+              </button>
+            </li>
+            <li class="menu-item ic-app-header__menu-list-item ">
+              <button id="global_nav_groups_link" class="ic-app-header__menu-list-link">
+                <div class="menu-item-icon-container" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--groups" viewBox="0 0 200 135"><path d="M134.5 129.4c0-1.1 0-19.8-6.2-31.1-4.5-8.5-16.4-12.4-35-19.2-1.7-.6-3.4-1.1-5.1-1.7v-8.5c5.6-5.1 8.5-12.4 8.5-20.3V29.4C96.6 13 83.6 0 67.2 0S37.9 13 37.9 29.4v19.2c0 7.3 3.4 14.7 8.5 20.3v8.5c-1.7.6-3.4 1.1-5.1 1.7-18.6 6.2-30.5 10.7-35 19.2C0 109.6 0 128.8 0 129.4c0 3.4 2.3 5.6 5.6 5.6h123.7c3.5 0 5.7-2.3 5.2-5.6zm-123.2-5.7c.6-5.6 1.7-14.7 3.4-19.8C17 98.8 30 94.3 43.5 89.8c2.8-1.1 5.6-2.3 9-3.4 2.3-.6 4-2.8 4-5.1V66.7c0-1.7-.6-3.4-1.7-4.5-4-3.4-6.2-8.5-6.2-13.6V29.4c0-10.2 7.9-18.1 18.1-18.1s18.1 7.9 18.1 18.1v19.2c0 5.1-2.3 10.2-6.2 13.6-1.1 1.1-1.7 2.8-1.7 4.5v14.7c0 2.3 1.7 4.5 4 5.1 2.8 1.1 6.2 2.3 9 3.4 13.6 5.1 26.6 9.6 28.8 14.1 2.8 5.1 4 13.6 4.5 19.8H11.3zM196 79.1c-2.8-6.2-11.3-9.6-22.6-13.6l-1.7-.6v-3.4c4.5-4 6.8-9.6 6.8-15.8V35c0-12.4-9.6-22-22-22s-22 10.2-22 22v10.7c0 6.2 2.3 11.9 6.8 15.8V65l-1.7.6c-7.3 2.8-13 4.5-16.9 7.3-1.7 1.1-2.3 2.8-2.3 5.1.6 1.7 1.7 3.4 3.4 4.5 7.9 4 12.4 7.3 14.1 10.7 2.3 4.5 4 10.2 5.1 18.1.6 2.3 2.8 4.5 5.6 4.5h45.8c3.4 0 5.6-2.8 5.6-5.1 0-3.9 0-24.3-4-31.6zm-42.9 25.4c-1.1-6.8-2.8-12.4-5.1-16.9-1.7-4-5.1-6.8-9.6-10.2 1.7-1.1 3.4-1.7 5.1-2.3l5.6-2.3c1.7-.6 3.4-2.8 3.4-5.1v-9.6c0-1.7-.6-3.4-2.3-4.5-2.8-1.7-4.5-5.1-4.5-8.5V34.5c0-6.2 4.5-10.7 10.7-10.7s10.7 5.1 10.7 10.7v10.7c0 3.4-1.7 6.2-4.5 8.5-1.1 1.1-2.3 2.8-2.3 4.5v10.2c0 2.3 1.1 4.5 3.4 5.1l5.6 2.3c6.8 2.3 15.3 5.6 16.4 7.9 1.7 2.8 2.8 12.4 2.8 20.9h-35.4z"></path></svg>
+
+                </div>
+                <div class="menu-item__text">
+                  Groups
+                </div>
+              </button>
+            </li>
+          <li class="menu-item ic-app-header__menu-list-item ">
+            <a id="global_nav_calendar_link" href="https://canvas.ucsc.edu/calendar" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--calendar" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M197.07,213.38h16.31V197.07H197.07Zm-16.31,16.31V180.76h48.92v48.92Zm-48.92-16.31h16.31V197.07H131.85Zm-16.31,16.31V180.76h48.92v48.92ZM66.62,213.38H82.93V197.07H66.62ZM50.32,229.68V180.76H99.24v48.92Zm146.75-81.53h16.31V131.85H197.07Zm-16.31,16.31V115.54h48.92v48.92Zm-48.92-16.31h16.31V131.85H131.85Zm-16.31,16.31V115.54h48.92v48.92ZM66.62,148.15H82.93V131.85H66.62ZM50.32,164.46V115.54H99.24v48.92ZM34,262.29H246V82.93H34ZM246,66.62V42.16A8.17,8.17,0,0,0,237.84,34H213.38v8.15a8.15,8.15,0,1,1-16.31,0V34H82.93v8.15a8.15,8.15,0,0,1-16.31,0V34H42.16A8.17,8.17,0,0,0,34,42.16V66.62Zm-8.15-48.92a24.49,24.49,0,0,1,24.46,24.46V278.6H17.71V42.16A24.49,24.49,0,0,1,42.16,17.71H66.62V9.55a8.15,8.15,0,0,1,16.31,0v8.15H197.07V9.55a8.15,8.15,0,1,1,16.31,0v8.15Z"></path></svg>
+
+              </div>
+              <div class="menu-item__text">
+                Calendar
+              </div>
+            </a>
+          </li>
+          <li class="menu-item ic-app-header__menu-list-item ">
+            <a id="global_nav_conversations_link" href="https://canvas.ucsc.edu/conversations" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container">
+                <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--inbox" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M91.72,120.75h96.56V104.65H91.72Zm0,48.28h80.47V152.94H91.72Zm0-96.56h80.47V56.37H91.72Zm160.94,34.88H228.52V10.78h-177v96.56H27.34A24.17,24.17,0,0,0,3.2,131.48V244.14a24.17,24.17,0,0,0,24.14,24.14H252.66a24.17,24.17,0,0,0,24.14-24.14V131.48A24.17,24.17,0,0,0,252.66,107.34Zm0,16.09a8.06,8.06,0,0,1,8,8v51.77l-32.19,19.31V123.44ZM67.58,203.91v-177H212.42v177ZM27.34,123.44H51.48v79.13L19.29,183.26V131.48A8.06,8.06,0,0,1,27.34,123.44ZM252.66,252.19H27.34a8.06,8.06,0,0,1-8-8V202l30,18H230.75l30-18v42.12A8.06,8.06,0,0,1,252.66,252.19Z"></path></svg>
+</span>
+                <span class="menu-item__badge"></span>
+              </div>
+              <div class="menu-item__text">
+                Inbox
+              </div>
+            </a>
+          </li>
+            <li class="menu-item ic-app-header__menu-list-item">
+              <button id="global_nav_history_link" class="ic-app-header__menu-list-link">
+                <div class="menu-item-icon-container" aria-hidden="true">
+                  <svg viewBox="0 0 1920 1920" class="ic-icon-svg menu-item__icon svg-icon-history" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M960 112.941c-467.125 0-847.059 379.934-847.059 847.059 0 467.125 379.934 847.059 847.059 847.059 467.125 0 847.059-379.934 847.059-847.059 0-467.125-379.934-847.059-847.059-847.059M960 1920C430.645 1920 0 1489.355 0 960S430.645 0 960 0s960 430.645 960 960-430.645 960-960 960m417.905-575.955L903.552 988.28V395.34h112.941v536.47l429.177 321.77-67.765 90.465z" stroke="none" stroke-width="1" fill-rule="evenodd"></path>
+</svg>
+                </div>
+                <div class="menu-item__text">
+                  History
+                </div>
+              </button>
+            </li>
+            
+
+
+          <li class="ic-app-header__menu-list-item">
+           <a id="global_nav_help_link" role="button" class="ic-app-header__menu-list-link" data-track-category="help system" data-track-label="help button" href="http://help.instructure.com/">
+              <div class="menu-item-icon-container" role="presentation">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg menu-item__icon svg-icon-help" version="1.1" x="0" y="0" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve" fill="currentColor"><path d="M100,127.88A11.15,11.15,0,1,0,111.16,139,11.16,11.16,0,0,0,100,127.88Zm8.82-88.08a33.19,33.19,0,0,1,23.5,23.5,33.54,33.54,0,0,1-24,41.23,3.4,3.4,0,0,0-2.74,3.15v9.06H94.42v-9.06a14.57,14.57,0,0,1,11.13-14,22.43,22.43,0,0,0,13.66-10.27,22.73,22.73,0,0,0,2.31-17.37A21.92,21.92,0,0,0,106,50.59a22.67,22.67,0,0,0-19.68,3.88,22.18,22.18,0,0,0-8.65,17.64H66.54a33.25,33.25,0,0,1,13-26.47A33.72,33.72,0,0,1,108.82,39.8ZM100,5.2A94.8,94.8,0,1,0,194.8,100,94.91,94.91,0,0,0,100,5.2m0,178.45A83.65,83.65,0,1,1,183.65,100,83.73,83.73,0,0,1,100,183.65" transform="translate(-5.2 -5.2)"></path></svg>
+
+              </div>
+              <div class="menu-item__text">
+                Help
+              </div>
+</a>          </li>
+        </ul>
+      </div>
+      <div class="ic-app-header__secondary-navigation">
+        <ul class="ic-app-header__menu-list">
+          <li class="menu-item ic-app-header__menu-list-item">
+            <button id="primaryNavToggle" class="ic-app-header__menu-list-link ic-app-header__menu-list-link--nav-toggle" aria-label="Minimize global navigation" title="Minimize global navigation">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--navtoggle" version="1.1" x="0" y="0" width="40" height="32" viewBox="0 0 40 32" xml:space="preserve">
+  <path d="M39.5,30.28V2.48H37.18v27.8Zm-4.93-13.9L22.17,4,20.53,5.61l9.61,9.61H.5v2.31H30.14l-9.61,9.61,1.64,1.64Z"></path>
+</svg>
+
+              </div>
+            </button>
+          </li>
+        </ul>
+      </div>
+    <div id="global_nav_tray_container"></div>
+    <div id="global_nav_tour"></div>
+  </header>
+
+
+  <div id="instructure_ajax_error_box">
+    <div style="text-align: right; background-color: #fff;"><a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="close_instructure_ajax_error_box_link">Close</a></div>
+    <iframe id="instructure_ajax_error_result" src="./Lab 9_ JavaScript for the Web_files/saved_resource.html" style="border: 0;" title="Error"></iframe>
+  </div>
+
+  <div id="wrapper" class="ic-Layout-wrapper">
+      <div class="ic-app-nav-toggle-and-crumbs no-print">
+          <button type="button" id="courseMenuToggle" class="Button Button--link ic-app-course-nav-toggle" aria-live="polite" aria-label="Hide Courses Navigation Menu">
+            <i class="icon-hamburger" aria-hidden="true"></i>
+          </button>
+          <div class="ic-app-crumbs">
+        <nav id="breadcrumbs" role="navigation" aria-label="breadcrumbs" style=""><ul><li class="home"><a href="https://canvas.ucsc.edu/"><span class="ellipsible">      <i class="icon-home" title="My Dashboard">
+        <span class="screenreader-only">My Dashboard</span>
+      </i>
+</span></a></li><li><a href="https://canvas.ucsc.edu/courses/39790"><span class="ellipsible">ART-101-01</span></a></li><li><a href="https://canvas.ucsc.edu/courses/39790/assignments"><span class="ellipsible">Assignments</span></a></li><li><a href="https://canvas.ucsc.edu/courses/39790/assignments/204014"><span class="ellipsible">Lab 9: JavaScript for the Web</span></a></li></ul></nav>
+        </div>
+      </div>
+    <div id="main" class="ic-Layout-columns">
+        <div class="ic-Layout-watermark"></div>
+        <div id="left-side" class="ic-app-course-menu list-view" style="display: block">
+              <span id="section-tabs-header-subtitle" class="ellipsis">2021 Winter Quarter</span>
+            <nav role="navigation" aria-label="Courses Navigation Menu"><ul id="section-tabs"><li class="section"><a href="https://canvas.ucsc.edu/courses/39790" class="home" tabindex="0">Home</a></li><li class="section"><a href="https://canvas.ucsc.edu/courses/39790/assignments/syllabus" class="syllabus" tabindex="0">Syllabus</a></li><li class="section"><a href="https://canvas.ucsc.edu/courses/39790/modules" class="modules" tabindex="0">Modules</a></li><li class="section"><a href="https://canvas.ucsc.edu/courses/39790/announcements" class="announcements" tabindex="0">Announcements</a></li><li class="section"><a href="https://canvas.ucsc.edu/courses/39790/external_tools/3086" class="context_external_tool_3086" tabindex="0">Zoom</a></li><li class="section"><a href="https://canvas.ucsc.edu/courses/39790/external_tools/3091" class="context_external_tool_3091" tabindex="0">YuJa</a></li><li class="section"><a href="https://canvas.ucsc.edu/courses/39790/assignments" aria-current="page" class="assignments active" tabindex="0">Assignments</a></li><li class="section"><a href="https://canvas.ucsc.edu/courses/39790/discussion_topics" class="discussions" tabindex="0">Discussions</a></li><li class="section"><a href="https://canvas.ucsc.edu/courses/39790/grades" class="grades" tabindex="0">Grades</a></li><li class="section"><a href="https://canvas.ucsc.edu/courses/39790/users" class="people" tabindex="0">People</a></li><li class="section"><a href="https://canvas.ucsc.edu/courses/39790/wiki" class="pages" tabindex="0">Pages</a></li><li class="section"><a href="https://canvas.ucsc.edu/courses/39790/files" class="files" tabindex="0">Files</a></li><li class="section"><a href="https://canvas.ucsc.edu/courses/39790/external_tools/10" class="context_external_tool_10" tabindex="0">Google Drive</a></li><li class="section"><a href="https://canvas.ucsc.edu/courses/39790/external_tools/20" class="context_external_tool_20" tabindex="0">Chat</a></li><li class="section"><a href="https://canvas.ucsc.edu/courses/39790/lti_collaborations" class="collaborations" tabindex="0">Collaborations</a></li></ul></nav>
+        </div>
+      <div id="not_right_side" class="ic-app-main-content">
+        <div id="content-wrapper" class="ic-Layout-contentWrapper">
+          
+          <div id="content" class="ic-Layout-contentMain" role="main">
+            
+<style>
+  #right-side-wrapper {
+    height: 100%;
+  }
+</style>
+
+
+
+<div id="assignment_show" class="assignment content_underline_links">
+    <!--Student View-->
+    <div class="assignment-title">
+      <div class="title-content">
+        <h1 class="title">
+          Lab 9: JavaScript for the Web
+        </h1>
+      </div>
+      <div class="assignment-buttons">
+        
+
+        <button type="button" class="Button Button--primary submit_assignment_link ">Submit Assignment</button>
+      </div>
+    </div>
+    
+<ul class="student-assignment-overview">
+  <li>
+    <span class="title">Due</span>
+    <span class="value">
+          <span class="date_text">
+                <span class="display_date">Thursday</span> by 
+                <span class="display_time"> 8:50am</span>
+          </span>
+        </span>
+  </li>
+  <li>
+    <span class="title">Points</span>
+    <span class="value">10</span>
+  </li>
+    <li>
+      <span class="title">Submitting</span>
+      <span class="value">a file upload</span>
+    </li>
+      <li>
+        <span class="title">File Types</span>
+        <span class="value">pdf</span>
+      </li>
+  
+
+  <div class="clear"></div>
+</ul>
+
+  <div class="clear"></div>
+
+
+  <div class="clear"></div>
+
+  <div class="description user_content student-version enhanced"><h4><span>Big Idea</span></h4>
+<p>Working with your partner, experiment with DOM manipulation.</p>
+<h4>Task 1: Create an index.html for Lab 9</h4>
+<p>As always, create the proper folders and an index, css, and JavaScript files for this lab. And make sure you also put a link from your art101 homepage to this lab</p>
+<ol>
+<li>Create&nbsp;<strong>art101/lab9/index.html </strong>with three organized sections:&nbsp;<strong>Challenge, Problems, and Results</strong>
+</li>
+<li>Use heading, div, and paragraph tags to organize your page</li>
+<li>Give your divs and paragraphs ids so you can mess with them in JavaScript.</li>
+<li>Add a<span>&nbsp;</span><span style="font-family: &#39;courier new&#39;, courier, monospace;"><strong>&lt;div&gt;</strong></span><span>&nbsp;</span>with<span>&nbsp;</span><strong><span style="font-family: &#39;courier new&#39;, courier, monospace;">id=output</span></strong><span>&nbsp;</span>and label it.</li>
+<li>Link a JavaScript file from the &lt;head&gt; section of your HTML&nbsp;like this:<br><br><span><strong>&nbsp; &nbsp; &lt;head&gt;</strong></span><br><span><strong>&nbsp; &nbsp; &nbsp; &nbsp; &lt;title&gt;Lab 9&lt;/title&gt;</strong></span><br><span><strong>&nbsp; &nbsp; &nbsp; &nbsp; &lt;script src="js/lab9.js" defer&gt;&lt;/script&gt;</strong></span><br><span><strong>&nbsp; &nbsp; &lt;/head&gt;</strong></span><br><br>
+</li>
+<li>Add a CSS stylesheet in your css folder and link from&nbsp;<strong>index.html</strong>
+</li>
+<li><strong>Add a link to your JavaScript file in your index page.</strong></li>
+</ol>
+<p>Take a&nbsp;<strong>screenshot</strong>&nbsp;of your Sublime source code</p>
+<p>&nbsp;</p>
+<h4>Task 2: Create a JavaScript file</h4>
+<p>Create a new file in Sublime&nbsp;<strong>art101/lab9/js/lab9.js</strong></p>
+<ol>
+<li>Put a&nbsp;<a href="https://stackoverflow.com/questions/846889/what-information-to-put-in-comments-at-the-top-of-a-sourcecode-file" target="_blank" class="external" rel="noreferrer noopener"><span>comment block</span><span aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span><span class="screenreader-only">&nbsp;(Links to an external site.)</span></a>&nbsp;at the top of your program</li>
+<li>Use&nbsp;<strong>getElementById()</strong><span>&nbsp;</span>to find your output<span>&nbsp;</span><strong>&lt;div&gt;</strong><span>&nbsp;</span>and assign it to a variable<span>&nbsp;</span><strong>outputEl</strong>
+</li>
+<li>Create a new element with&nbsp;<strong>document.createElement("p")</strong><span>&nbsp;</span>and assign it to a variable<span>&nbsp;</span><strong>new1El</strong>
+</li>
+<li>Change the html attribute of<span>&nbsp;</span><strong>new1El</strong><span>&nbsp;</span>to say something new.</li>
+<li>Create another new element and assign it to a variable<span>&nbsp;</span><strong>new2El</strong>
+</li>
+<li>Change the html attribute of<span>&nbsp;</span><strong>new2El</strong><span>&nbsp;</span>to say something else.</li>
+<li>Append both new elements one at a time using&nbsp;<strong>appendChild() </strong>to your output <strong>&lt;div&gt;</strong>
+</li>
+<li>Change the css attributes of at least two elements of your page</li>
+</ol>
+<p>Remember:</p>
+<ul>
+<li>Experiment with new commands in the JavaScript console to see how they work</li>
+<li>Add comments to your function to say what it does</li>
+<li>Make it neat using lots of whitespace.</li>
+<li>Style in programming matters, so use indentations and spaces where necessary.</li>
+<li>Remember to put a semicolon at the end of every line.&nbsp;</li>
+</ul>
+<p>Take a&nbsp;<strong>screenshot</strong>&nbsp;of your JavaScript file in Sublime.</p>
+<p>&nbsp;</p>
+<h4>Task 3: Test, Debug, and Upload</h4>
+<p>As usual,</p>
+<ol>
+<li>Test your HTML locally</li>
+<li>Fix any problems with your code.</li>
+<li>When it is working, take a&nbsp;<strong>screenshot.</strong>
+</li>
+<li>Upload your entire&nbsp;<strong>art101</strong>&nbsp;file structure</li>
+<li>Test it on the server.</li>
+<li>When it is working,&nbsp;take a&nbsp;<strong>screenshot.</strong>
+</li>
+</ol>
+<p>Remember:</p>
+<ul>
+<li>Use the console to see what went wrong.</li>
+<li>Use console.log() to print out variables to see what's happening behind the scenes.</li>
+</ul>
+<p>&nbsp;</p>
+<h4>Task X: Bonus!</h4>
+<p>Here are some additional experiments to try for extra special bonus points. Perform experiments to answer one or more of these questions and provide screenshots and a paragraph to explain.</p>
+<ol>
+<li>
+<strong>appendChild()</strong><span>&nbsp;</span>adds an element to the bottom of an element.&nbsp;Can you add a new element to the top of an element?</li>
+<li>Can you experiment with some of the<span>&nbsp;</span><a href="https://www.w3schools.com/jsref/dom_obj_document.asp" target="_blank" class="external" rel="noreferrer noopener"><span>DOM document</span><span aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span><span class="screenreader-only">&nbsp;(Links to an external site.)</span></a><span>&nbsp;</span>methods and attributes?</li>
+<li>Can you experiment with some of the other<span>&nbsp;</span><a href="https://www.w3schools.com/jsref/dom_obj_document.asp" target="_blank" class="external" rel="noreferrer noopener"><span>DOM elements</span><span aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span><span class="screenreader-only">&nbsp;(Links to an external site.)</span></a>?</li>
+</ol>
+<p>&nbsp;</p>
+<h4 class="p3">Deliverables</h4>
+<p class="p3">Here are the details of your submission:</p>
+<ul>
+<li class="p4">Work with a partner
+<ul>
+<li class="p4">this is required except by very special arrangement with the instructor</li>
+<li class="p4">both partners submit the assignment</li>
+</ul>
+</li>
+<li class="p4">Create a single organized and professional PDF that contains:
+<ul>
+<li class="p4">a title page with you and your partner's name, the assignment, and the date</li>
+<li class="p4"><strong>put links to your uploaded, working lab page</strong></li>
+<li class="p4">a summary of your efforts, including&nbsp;<strong>Challenge, Problems, and Results</strong>
+</li>
+<li class="p4">All of your screenshots,&nbsp;<strong>captioned and described.</strong>
+</li>
+</ul>
+</li>
+<li class="p4">Pro-tips for a successful submission:</li>
+<ul id="yui_3_17_2_1_1567992507348_449">
+<li class="p4">Turn it in on-time</li>
+<li class="p4">Use complete sentences for your summary.</li>
+<li id="yui_3_17_2_1_1567992507348_448" class="p4">If you did not complete the lab, please provide a longer, more detailed summary.</li>
+</ul>
+</ul></div>
+
+
+  <div style="display: none;">
+    <span class="timestamp">1613062200</span>
+    <span class="due_date_string">02/11/2021</span>
+    <span class="due_time_string">08:50am</span>
+  </div>
+</div>
+
+
+  
+<div style="display: none;" id="submit_assignment" data-context_code="course_39790" data-asset_string="assignment_204014">
+  <div class="content" id="submit_assignment_tabs">
+    <ul>
+        <li><a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#submit_online_upload_form" class="submit_online_upload_option">File Upload</a></li>
+        <li><a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#submit_google_doc_form" class="submit_online_url_option">Google Doc</a></li>
+        <li><a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#submit_from_external_tool_form_10" class="external-tool" data-id="10" data-name="Google Apps">Google Drive</a></li>
+    </ul>
+      
+<form id="submit_online_upload_form" class="submit_assignment_form" enctype="multipart/form-data" action="https://canvas.ucsc.edu/courses/39790/assignments/204014/submissions" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="mUTKY5SiRQw7AlUvuF7qJ8YU+kQuXfPqTXmzagI496jrIbAxost1XlpzJ2rUM5lXhXOMK2grhN06G4FcLVCtwg==">
+    <input value="online_upload" type="hidden" name="submission[submission_type]" id="submission_submission_type">
+    <input value="" id="submission_attachment_ids" type="hidden" name="submission[attachment_ids]">
+    <input id="eula_agreement_timestamp" type="hidden" name="submission[eula_agreement_timestamp]">
+    <table class="formtable" style="width: 100%;">
+      <tbody><tr>
+        <td colspan="2">
+          Upload a file, or choose a file you've already uploaded.
+            
+        </td>
+      </tr><tr>
+        <td><label id="attachmentLabel" for="attachment_uploaded_data">File:</label></td>
+        <td>
+          <div class="submission_attachment" style="display: block;">
+            <input type="file" name="attachments[0][uploaded_data]" class="input-file">
+            <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="remove_attachment_link no-hover" style="display: none;"><i class="icon-end" aria-hidden="true"></i><span class="screenreader-only">remove empty attachment</span></a>
+              <div class="bad_ext_msg error_message" style="display: none">
+                This file type is not allowed. Accepted file types are: pdf
+              </div>
+          </div><button class="Button Button--link add_another_file_link">
+            <i class="icon-add" aria-hidden="true"></i>
+            Add Another File
+          </button>
+          <div id="submission_attachment_blank" class="submission_attachment" style="display: none;">
+            <input type="file" name="attachments[-1][uploaded_data]" class="input-file">
+            <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="remove_attachment_link no-hover" style="display: none;"><i class="icon-end" aria-hidden="true"></i><span class="screenreader-only">remove empty attachment</span></a>
+              <div class="bad_ext_msg error_message" style="display: none">
+                This file type is not allowed. Accepted file types are: pdf
+              </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td style="font-size: 0.8em;">
+          <button class="Button Button--link toggle_uploaded_files_link">Click here to find a file you've already uploaded</button><br>
+          <div id="uploaded_files" style="display: none;">
+        </div></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <textarea class="submission_comment_textarea" placeholder="Comments..." title="Additional comments" name="submission[comment]" id="submission_comment"></textarea>
+        </td>
+      </tr>
+      
+
+      
+
+      <tr>
+        <td colspan="2" class="button-container">
+          <button type="button" class="cancel_button btn">Cancel</button>
+          <button type="submit" class="btn btn-primary" id="submit_file_button">Submit Assignment</button>
+          <span id="progress_indicator"></span>
+        </td>
+      </tr>
+    </tbody></table>
+</form>
+
+
+
+    <style>
+    #google_docs_tree li.folder {
+      cursor: pointer;
+    }
+    #google_docs_tree li.file {
+      cursor: pointer;
+      -moz-border-radius: 3px;
+      width: 80%;
+      padding-right: 20px;
+    }
+    #google_docs_tree li.file:hover {
+      background-color: #eee;
+    }
+    ul.instTree li span.active {
+      background: none;
+    }
+    #google_docs_tree li.file.leaf.active {
+      background-color: #ddd;
+    }
+    #google_docs_tree li.file .filename {
+      float: left;
+      max-width: 98%;
+    }
+    #google_docs_tree li.file .popout {
+      float: right;
+    }
+    </style>
+          <form id="submit_google_doc_form" class="submit_assignment_form" action="https://canvas.ucsc.edu/courses/39790/assignments/204014/submissions" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="Ig+fn8uDWrT48FdW1ImgIbdCPlbZGVSP0FhutM4owl9QauXN/epq5pmBJRO45NNR9CVIOZ9vI7inOlyC4UCYNQ==">
+            <input value="google_doc" type="hidden" name="submission[submission_type]" id="submission_submission_type">
+            <input value="" class="google_doc_id" type="hidden" name="google_doc[document_id]" id="google_doc_document_id">
+            <table class="formtable" style="width: 100%;">
+              <tbody><tr>
+                <td style="padding-bottom: 10px;" colspan="2">
+                  Select the file from the list below.
+                  
+                  </td>
+              </tr><tr>
+                <td colspan="2">
+                  <div id="google_docs_container" style="height: 200px; overflow: auto;">
+                    <div style="text-align: center; margin: 10px;">
+                      <img alt="" src="./Lab 9_ JavaScript for the Web_files/ajax-loader-bar-71e6988298.gif">
+                    </div>
+                  </div>
+                </td>
+              </tr><tr>
+                <td colspan="2" style="text-align: center;">
+                  <div style="text-align: left;">
+                    <textarea class="submission_comment_textarea" placeholder="Comments..." title="Additional comments" name="submission[comment]" id="submission_comment"></textarea>
+                  </div>
+                </td>
+              </tr>
+              
+
+              <tr>
+                <td colspan="2" class="button-container">
+                  <button type="button" class="cancel_button btn">Cancel</button>
+                  <button type="submit" class="btn btn-primary">Submit Assignment</button>
+                </td>
+              </tr>
+            </tbody></table>
+            <div id="uploading_google_doc_message" style="display: none;">
+              Retrieving a copy of your Google Doc to submit for this assignment.  This may take a little while, depending on the size of the file...
+              <div style="text-align: center; margin: 10px;">
+                <img alt="" src="./Lab 9_ JavaScript for the Web_files/ajax-loader-bar-71e6988298.gif">
+              </div>
+            </div>
+</form>
+
+      <div id="submit_from_external_tool_form_10" style="padding: 5px 5px 0 5px;"></div>
+
+  </div>
+</div>
+
+
+
+
+
+  <div id="rubrics" style="margin-bottom: 10px;">
+      
+<div class="rubric_container rubric  " id="rubric_9998" style="">
+  <div class="screenreader-only"><h2>Rubric</h2></div>
+  <div class="rubric_title">
+    <div style="display: none;" class="links displaying pull-right">
+      <a href="https://canvas.ucsc.edu/courses/39790/rubrics/9998?rubric_association_id=19914" class="copy_edit edit_rubric_link no-print no-hover" style="display: none;" title="Edit Rubric" aria-label="Edit Rubric" role="button"><i class="icon-edit standalone-icon"></i></a>
+      <a href="https://canvas.ucsc.edu/search/rubrics?q=" class="find_rubric_link no-print no-hover" style="display: none;" title="Find Another Rubric" aria-label="Find Another Rubric" role="button"><i class="icon-search standalone-icon"></i></a>
+        <a href="https://canvas.ucsc.edu/courses/39790/rubric_associations/19914" class="delete_rubric_link no-print no-hover" style="display: none;" title="Delete Rubric" aria-label="Delete Rubric" role="button"><i class="icon-trash standalone-icon"></i></a>
+      <div style="display: none;">
+        <div class="use_for_grading">&nbsp;</div>
+        <div class="free_form_criterion_comments">&nbsp;</div>
+        <div class="hide_score_total">&nbsp;</div>
+        <div class="hide_outcome_results">&nbsp;</div>
+        <div class="hide_points">&nbsp;</div>
+        <div class="rubric_association_id">19914</div>
+          <div class="user_id">&nbsp;</div>
+        <div class="assessment_type"></div>
+        <a href="https://canvas.ucsc.edu/courses/39790/rubric_associations/19914/assessments/%7B%7B%20assessment_id%20%7D%7D" rel="nofollow" class="edit_assessment_link">&nbsp;</a>
+        <a href="https://canvas.ucsc.edu/courses/39790/rubrics/%7B%7B%20rubric_id%20%7D%7D" class="edit_rubric_url">&nbsp;</a>
+          <a href="https://canvas.ucsc.edu/courses/39790/rubric_associations/%7B%7B%20association_id%20%7D%7D" class="delete_rubric_url">&nbsp;</a>
+      </div>
+    </div>
+    <div style="float: right; font-size: 0.8em; display: none;" class="links displaying locked">
+      <span style="">Can't change a rubric once you've started using it.</span>
+        <a href="https://canvas.ucsc.edu/courses/39790/rubric_associations/%7B%7B%20association_id%20%7D%7D" class="delete_rubric_url" style="display: none;">&nbsp;</a>
+    </div>
+
+    <div class="editing" style="float: right;">
+      <a href="https://canvas.ucsc.edu/search/rubrics?q=" class="find_rubric_link icon-search" style="display: none;" title="Find Existing Rubric">Find a Rubric</a>
+    </div>
+    <div class="editing" style="text-align: left">
+      <label for="rubric-title">Title:</label>
+      <input id="rubric-title" type="text" class="no-margin-bottom" name="title" value="ART101 Lab Rubric (v2.0)" style="width: 200px;" maxlength="255" aria-label="Title:">
+      <a href="https://canvas.ucsc.edu/search/rubrics?q=" style="display: none;"><img alt="" src="./Lab 9_ JavaScript for the Web_files/find-6164443e2a.png"> Find Rubric</a>
+    </div>
+    <div class="displaying">
+      <span class="title" tabindex="-1">ART101 Lab Rubric (v2.0)</span>
+    </div>
+    <div class="has-assessments-warning" style="display: none;">
+      You've already rated students with this rubric.  Any major changes could affect their assessment results.
+    </div>
+  </div>
+<table class="rubric_table">
+<caption>
+  <div class="screenreader-only">
+    <span class="title">ART101 Lab Rubric (v2.0)</span>
+  </div>
+</caption>
+<thead>
+  <tr>
+    <th scope="col">Criteria</th>
+    <th scope="col">Ratings</th>
+    <th scope="col" class="toggle_for_hide_points ">
+      Pts
+    </th>
+  </tr>
+</thead>
+<tbody>
+      
+<tr id="criterion__6660" class="criterion   " style="">
+  <td class="criterion_description hover-container pad-box-micro">
+    <div class="container">
+      <div class="links editing">
+          <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_criterion_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit criterion description</span></a>
+        <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_criterion_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete criterion row</span></a>
+      </div>
+      <div class="description_content">
+        <span class="outcome_sr_content" aria-hidden="true">
+          <i class="learning_outcome_flag icon-outcomes" aria-hidden="true"></i>
+          <span class="screenreader-only">This criterion is linked to a Learning Outcome</span>
+        </span>
+        <span class="description description_title">Completion</span>
+        <span class="learning_outcome_id" style="display: none;"></span>
+        <span class="criterion_id" style="display: none;">_6660</span>
+          <div class="long_description small_description">Minus 10% for each day late</div>
+        <div class="hide_when_learning_outcome ">
+          <div class="criterion_use_range_div editing toggle_for_hide_points ">
+            <label>Range
+              <input type="checkbox" class="criterion_use_range"></label>
+          </div>
+        </div>
+        <div class="threshold toggle_for_hide_points ">
+          threshold:
+          <span class="mastery_points"></span> pts
+        </div>
+      </div>
+
+    </div>
+  </td>
+  <td style="padding: 0;">
+      <table class="ratings" style=""><tbody><tr>
+          <td id="rating_blank" class="rating edge_rating
+                
+                ">
+            <div class="container" style="height: 78px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">4</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">3.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Submitted on time</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">blank</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td id="rating__394" class="rating 
+                
+                ">
+            <div class="container" style="height: 78px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">3</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">2.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Up to 1 day late</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_394</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td id="rating__3240" class="rating 
+                
+                ">
+            <div class="container" style="height: 78px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">2</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">1.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Up to 2 days late</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_3240</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td id="rating__8710" class="rating 
+                
+                ">
+            <div class="container" style="height: 78px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">1</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Up to 3 days late</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_8710</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td id="rating_blank_2" class="rating edge_rating
+                infinitesimal
+                ">
+            <div class="container" style="height: 78px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">4 or more days late</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">blank_2</span>
+              </div>
+            </div>
+          </td>
+      </tr></tbody></table>
+      <div style="display: none; font-size: 0.8em; margin: 5px;" class="custom_ratings">
+        This area will be used by the assessor to leave comments related to this criterion.
+      </div>
+  </td>
+  <td class="nobr points_form toggle_for_hide_points ">
+    <div class="editing" style="white-space: normal">
+      <span style="white-space: nowrap; font-size: 0.8em">
+          
+            <input type="text" aria-label="Points" value="4" class="criterion_points span1 no-margin-bottom">
+           pts
+      </span><br>
+    </div>
+    <div class="displaying">
+      <span style="white-space: nowrap;">
+        <span class="criterion_rating_points_holder" style="display: none;">
+          <span class="criterion_rating_points">&nbsp;</span> /
+        </span>
+        <span class="display_criterion_points">4</span> pts<br>
+      </span>
+    </div>
+    <div class="ignoring">
+      <span> -- </span>
+    </div>
+    <div class="criterion_comments">
+        <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="no-hover criterion_comments_link" title="Additional Comments">
+          <img alt="Additional Comments" src="./Lab 9_ JavaScript for the Web_files/rubric_comment-ddae8546ab.png">
+        </a>
+        <div class="custom_rating" style="display: none;"></div>
+    </div>
+  </td>
+</tr>
+
+      
+<tr id="criterion__7345" class="criterion   " style="">
+  <td class="criterion_description hover-container pad-box-micro">
+    <div class="container">
+      <div class="links editing">
+          <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_criterion_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit criterion description</span></a>
+        <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_criterion_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete criterion row</span></a>
+      </div>
+      <div class="description_content">
+        <span class="outcome_sr_content" aria-hidden="true">
+          <i class="learning_outcome_flag icon-outcomes" aria-hidden="true"></i>
+          <span class="screenreader-only">This criterion is linked to a Learning Outcome</span>
+        </span>
+        <span class="description description_title">Collaboration</span>
+        <span class="learning_outcome_id" style="display: none;"></span>
+        <span class="criterion_id" style="display: none;">_7345</span>
+          <div class="long_description small_description">Worked with partner</div>
+        <div class="hide_when_learning_outcome ">
+          <div class="criterion_use_range_div editing toggle_for_hide_points ">
+            <label>Range
+              <input type="checkbox" class="criterion_use_range"></label>
+          </div>
+        </div>
+        <div class="threshold toggle_for_hide_points ">
+          threshold:
+          <span class="mastery_points"></span> pts
+        </div>
+      </div>
+
+    </div>
+  </td>
+  <td style="padding: 0;">
+      <table class="ratings" style=""><tbody><tr>
+          <td id="rating__4719" class="rating edge_rating
+                
+                ">
+            <div class="container" style="height: 58px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">1</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Worked with partner (or has exception)</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_4719</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td id="rating__4940" class="rating edge_rating
+                infinitesimal
+                ">
+            <div class="container" style="height: 58px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">No evidence</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_4940</span>
+              </div>
+            </div>
+          </td>
+      </tr></tbody></table>
+      <div style="display: none; font-size: 0.8em; margin: 5px;" class="custom_ratings">
+        This area will be used by the assessor to leave comments related to this criterion.
+      </div>
+  </td>
+  <td class="nobr points_form toggle_for_hide_points ">
+    <div class="editing" style="white-space: normal">
+      <span style="white-space: nowrap; font-size: 0.8em">
+          
+            <input type="text" aria-label="Points" value="1" class="criterion_points span1 no-margin-bottom">
+           pts
+      </span><br>
+    </div>
+    <div class="displaying">
+      <span style="white-space: nowrap;">
+        <span class="criterion_rating_points_holder" style="display: none;">
+          <span class="criterion_rating_points">&nbsp;</span> /
+        </span>
+        <span class="display_criterion_points">1</span> pts<br>
+      </span>
+    </div>
+    <div class="ignoring">
+      <span> -- </span>
+    </div>
+    <div class="criterion_comments">
+        <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="no-hover criterion_comments_link" title="Additional Comments">
+          <img alt="Additional Comments" src="./Lab 9_ JavaScript for the Web_files/rubric_comment-ddae8546ab.png">
+        </a>
+        <div class="custom_rating" style="display: none;"></div>
+    </div>
+  </td>
+</tr>
+
+      
+<tr id="criterion__6741" class="criterion   " style="">
+  <td class="criterion_description hover-container pad-box-micro">
+    <div class="container">
+      <div class="links editing">
+          <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_criterion_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit criterion description</span></a>
+        <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_criterion_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete criterion row</span></a>
+      </div>
+      <div class="description_content">
+        <span class="outcome_sr_content" aria-hidden="true">
+          <i class="learning_outcome_flag icon-outcomes" aria-hidden="true"></i>
+          <span class="screenreader-only">This criterion is linked to a Learning Outcome</span>
+        </span>
+        <span class="description description_title">Effort</span>
+        <span class="learning_outcome_id" style="display: none;"></span>
+        <span class="criterion_id" style="display: none;">_6741</span>
+          <div class="long_description small_description">Earnest effort, articulate summaries</div>
+        <div class="hide_when_learning_outcome ">
+          <div class="criterion_use_range_div editing toggle_for_hide_points ">
+            <label>Range
+              <input type="checkbox" class="criterion_use_range"></label>
+          </div>
+        </div>
+        <div class="threshold toggle_for_hide_points ">
+          threshold:
+          <span class="mastery_points"></span> pts
+        </div>
+      </div>
+
+    </div>
+  </td>
+  <td style="padding: 0;">
+      <table class="ratings" style=""><tbody><tr>
+          <td id="rating__5967" class="rating edge_rating
+                
+                ">
+            <div class="container" style="height: 78px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">2</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">1.5</span></span> pts
+                </span>
+                <div class="description rating_description_value">Excellent</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_5967</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td id="rating__4425" class="rating 
+                
+                ">
+            <div class="container" style="height: 78px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">1.5</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">1.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Good</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_4425</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td id="rating__8088" class="rating 
+                
+                ">
+            <div class="container" style="height: 78px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">1</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0.5</span></span> pts
+                </span>
+                <div class="description rating_description_value">Satisfactory</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_8088</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td id="rating__9166" class="rating 
+                
+                ">
+            <div class="container" style="height: 78px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0.5</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Needs improvement</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_9166</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td id="rating__6523" class="rating edge_rating
+                infinitesimal
+                ">
+            <div class="container" style="height: 78px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">No Evidence</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_6523</span>
+              </div>
+            </div>
+          </td>
+      </tr></tbody></table>
+      <div style="display: none; font-size: 0.8em; margin: 5px;" class="custom_ratings">
+        This area will be used by the assessor to leave comments related to this criterion.
+      </div>
+  </td>
+  <td class="nobr points_form toggle_for_hide_points ">
+    <div class="editing" style="white-space: normal">
+      <span style="white-space: nowrap; font-size: 0.8em">
+          
+            <input type="text" aria-label="Points" value="2" class="criterion_points span1 no-margin-bottom">
+           pts
+      </span><br>
+    </div>
+    <div class="displaying">
+      <span style="white-space: nowrap;">
+        <span class="criterion_rating_points_holder" style="display: none;">
+          <span class="criterion_rating_points">&nbsp;</span> /
+        </span>
+        <span class="display_criterion_points">2</span> pts<br>
+      </span>
+    </div>
+    <div class="ignoring">
+      <span> -- </span>
+    </div>
+    <div class="criterion_comments">
+        <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="no-hover criterion_comments_link" title="Additional Comments">
+          <img alt="Additional Comments" src="./Lab 9_ JavaScript for the Web_files/rubric_comment-ddae8546ab.png">
+        </a>
+        <div class="custom_rating" style="display: none;"></div>
+    </div>
+  </td>
+</tr>
+
+      
+<tr id="criterion__3880" class="criterion   " style="">
+  <td class="criterion_description hover-container pad-box-micro">
+    <div class="container">
+      <div class="links editing">
+          <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_criterion_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit criterion description</span></a>
+        <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_criterion_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete criterion row</span></a>
+      </div>
+      <div class="description_content">
+        <span class="outcome_sr_content" aria-hidden="true">
+          <i class="learning_outcome_flag icon-outcomes" aria-hidden="true"></i>
+          <span class="screenreader-only">This criterion is linked to a Learning Outcome</span>
+        </span>
+        <span class="description description_title">Results</span>
+        <span class="learning_outcome_id" style="display: none;"></span>
+        <span class="criterion_id" style="display: none;">_3880</span>
+          <div class="long_description small_description">Complete, minimal errors, correct output, good style</div>
+        <div class="hide_when_learning_outcome ">
+          <div class="criterion_use_range_div editing toggle_for_hide_points ">
+            <label>Range
+              <input type="checkbox" class="criterion_use_range"></label>
+          </div>
+        </div>
+        <div class="threshold toggle_for_hide_points ">
+          threshold:
+          <span class="mastery_points"></span> pts
+        </div>
+      </div>
+
+    </div>
+  </td>
+  <td style="padding: 0;">
+      <table class="ratings" style=""><tbody><tr>
+          <td id="rating__1587" class="rating edge_rating
+                
+                ">
+            <div class="container" style="height: 78px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">2</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">1.5</span></span> pts
+                </span>
+                <div class="description rating_description_value">Excellent</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_1587</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td id="rating__6568" class="rating 
+                
+                ">
+            <div class="container" style="height: 78px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">1.5</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">1.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Good</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_6568</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td id="rating__4644" class="rating 
+                
+                ">
+            <div class="container" style="height: 78px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">1</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0.5</span></span> pts
+                </span>
+                <div class="description rating_description_value">Satisfactory</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_4644</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td id="rating__4169" class="rating 
+                
+                ">
+            <div class="container" style="height: 78px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0.5</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Needs improvement</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_4169</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td id="rating__5534" class="rating edge_rating
+                infinitesimal
+                ">
+            <div class="container" style="height: 78px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">No evidence</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_5534</span>
+              </div>
+            </div>
+          </td>
+      </tr></tbody></table>
+      <div style="display: none; font-size: 0.8em; margin: 5px;" class="custom_ratings">
+        This area will be used by the assessor to leave comments related to this criterion.
+      </div>
+  </td>
+  <td class="nobr points_form toggle_for_hide_points ">
+    <div class="editing" style="white-space: normal">
+      <span style="white-space: nowrap; font-size: 0.8em">
+          
+            <input type="text" aria-label="Points" value="2" class="criterion_points span1 no-margin-bottom">
+           pts
+      </span><br>
+    </div>
+    <div class="displaying">
+      <span style="white-space: nowrap;">
+        <span class="criterion_rating_points_holder" style="display: none;">
+          <span class="criterion_rating_points">&nbsp;</span> /
+        </span>
+        <span class="display_criterion_points">2</span> pts<br>
+      </span>
+    </div>
+    <div class="ignoring">
+      <span> -- </span>
+    </div>
+    <div class="criterion_comments">
+        <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="no-hover criterion_comments_link" title="Additional Comments">
+          <img alt="Additional Comments" src="./Lab 9_ JavaScript for the Web_files/rubric_comment-ddae8546ab.png">
+        </a>
+        <div class="custom_rating" style="display: none;"></div>
+    </div>
+  </td>
+</tr>
+
+      
+<tr id="criterion__9818" class="criterion   " style="">
+  <td class="criterion_description hover-container pad-box-micro">
+    <div class="container">
+      <div class="links editing">
+          <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_criterion_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit criterion description</span></a>
+        <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_criterion_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete criterion row</span></a>
+      </div>
+      <div class="description_content">
+        <span class="outcome_sr_content" aria-hidden="true">
+          <i class="learning_outcome_flag icon-outcomes" aria-hidden="true"></i>
+          <span class="screenreader-only">This criterion is linked to a Learning Outcome</span>
+        </span>
+        <span class="description description_title">Excellence</span>
+        <span class="learning_outcome_id" style="display: none;"></span>
+        <span class="criterion_id" style="display: none;">_9818</span>
+          <div class="long_description small_description">Demonstrates creativity and extra effort</div>
+        <div class="hide_when_learning_outcome ">
+          <div class="criterion_use_range_div editing toggle_for_hide_points ">
+            <label>Range
+              <input type="checkbox" class="criterion_use_range"></label>
+          </div>
+        </div>
+        <div class="threshold toggle_for_hide_points ">
+          threshold:
+          <span class="mastery_points"></span> pts
+        </div>
+      </div>
+
+    </div>
+  </td>
+  <td style="padding: 0;">
+      <table class="ratings" style=""><tbody><tr>
+          <td id="rating__7630" class="rating edge_rating
+                
+                ">
+            <div class="container" style="height: 72px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">1</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0.5</span></span> pts
+                </span>
+                <div class="description rating_description_value">Excellent</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_7630</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td id="rating__2214" class="rating 
+                
+                ">
+            <div class="container" style="height: 72px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0.5</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0.0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Good</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_2214</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td id="rating__5681" class="rating edge_rating
+                infinitesimal
+                ">
+            <div class="container" style="height: 72px;">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Average</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">_5681</span>
+              </div>
+            </div>
+          </td>
+      </tr></tbody></table>
+      <div style="display: none; font-size: 0.8em; margin: 5px;" class="custom_ratings">
+        This area will be used by the assessor to leave comments related to this criterion.
+      </div>
+  </td>
+  <td class="nobr points_form toggle_for_hide_points ">
+    <div class="editing" style="white-space: normal">
+      <span style="white-space: nowrap; font-size: 0.8em">
+          
+            <input type="text" aria-label="Points" value="1" class="criterion_points span1 no-margin-bottom">
+           pts
+      </span><br>
+    </div>
+    <div class="displaying">
+      <span style="white-space: nowrap;">
+        <span class="criterion_rating_points_holder" style="display: none;">
+          <span class="criterion_rating_points">&nbsp;</span> /
+        </span>
+        <span class="display_criterion_points">1</span> pts<br>
+      </span>
+    </div>
+    <div class="ignoring">
+      <span> -- </span>
+    </div>
+    <div class="criterion_comments">
+        <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="no-hover criterion_comments_link" title="Additional Comments">
+          <img alt="Additional Comments" src="./Lab 9_ JavaScript for the Web_files/rubric_comment-ddae8546ab.png">
+        </a>
+        <div class="custom_rating" style="display: none;"></div>
+    </div>
+  </td>
+</tr>
+
+  
+<tr id="criterion_blank" class="criterion blank  " style="display: none;">
+  <td class="criterion_description hover-container pad-box-micro">
+    <div class="container">
+      <div class="links editing">
+          <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_criterion_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit criterion description</span></a>
+        <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_criterion_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete criterion row</span></a>
+      </div>
+      <div class="description_content">
+        <span class="outcome_sr_content" aria-hidden="true">
+          <i class="learning_outcome_flag icon-outcomes" aria-hidden="true"></i>
+          <span class="screenreader-only">This criterion is linked to a Learning Outcome</span>
+        </span>
+        <span class="description description_title">Description of criterion</span>
+        <span class="learning_outcome_id" style="display: none;"></span>
+        <span class="criterion_id" style="display: none;"></span>
+          <div class="long_description small_description"></div>
+        <div class="hide_when_learning_outcome ">
+          <div class="criterion_use_range_div editing toggle_for_hide_points ">
+            <label>Range
+              <input type="checkbox" class="criterion_use_range"></label>
+          </div>
+        </div>
+        <div class="threshold toggle_for_hide_points ">
+          threshold:
+          <span class="mastery_points">5</span> pts
+        </div>
+      </div>
+
+    </div>
+  </td>
+  <td style="padding: 0;">
+      <table class="ratings" style=""><tbody><tr>
+          <td id="rating_blank" class="rating edge_rating
+                
+                ">
+            <div class="container">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">5</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Full Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">blank</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td id="rating_blank_2" class="rating edge_rating
+                infinitesimal
+                ">
+            <div class="container">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">No Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">blank_2</span>
+              </div>
+            </div>
+          </td>
+      </tr></tbody></table>
+      <div style="display: none; font-size: 0.8em; margin: 5px;" class="custom_ratings">
+        This area will be used by the assessor to leave comments related to this criterion.
+      </div>
+  </td>
+  <td class="nobr points_form toggle_for_hide_points ">
+    <div class="editing" style="white-space: normal">
+      <span style="white-space: nowrap; font-size: 0.8em">
+          
+            <input type="text" aria-label="Points" value="5" class="criterion_points span1 no-margin-bottom">
+           pts
+      </span><br>
+    </div>
+    <div class="displaying">
+      <span style="white-space: nowrap;">
+        <span class="criterion_rating_points_holder" style="display: none;">
+          <span class="criterion_rating_points">&nbsp;</span> /
+        </span>
+        <span class="display_criterion_points">5</span> pts<br>
+      </span>
+    </div>
+    <div class="ignoring">
+      <span> -- </span>
+    </div>
+    <div class="criterion_comments">
+        <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="no-hover criterion_comments_link" title="Additional Comments">
+          <img alt="Additional Comments" src="./Lab 9_ JavaScript for the Web_files/rubric_comment-ddae8546ab.png">
+        </a>
+        <div class="custom_rating" style="display: none;"></div>
+    </div>
+  </td>
+</tr>
+
+  <tr class="summary">
+    <td colspan="4">
+      <div class="total_points_holder toggle_for_hide_points " style="float: right; ">
+        <span>Total Points:
+            <span class="rubric_total">
+              10
+            </span>
+ <span class="assessing">out of 10</span>        </span>
+      </div>
+      <div class="editing pull-left">
+        <span id="add_criterion_holder" class="criterion_link"></span>
+      </div>
+      <div class="clear"></div>
+    </td>
+  </tr>
+</tbody>
+</table>
+</div>
+<table style="display: none;">
+  <tbody><tr id="edit_rubric">
+    <td colspan="4">
+      <form id="edit_rubric_form" class="edit-rubric-form no-margin-bottom">
+        <div class="rubric_custom_ratings" style="">
+          <input type="checkbox" id="rubric_custom_rating" class="rubric_custom_rating">
+          <label for="rubric_custom_rating">I'll write free-form comments when assessing students</label>
+        </div>
+          <div class="hide_points" style="">
+            <input type="checkbox" id="hide_points" class="hide_points_checkbox">
+            <label for="hide_points">Remove points from rubric</label>
+          </div>
+          <div class="hide_outcome_results" style="">
+            <input type="checkbox" id="hide_outcome_results" class="hide_outcome_results_checkbox">
+            <label for="hide_outcome_results">Don't post Outcomes results to Learning Mastery Gradebook</label>
+          </div>
+          <div class="rubric_grading" style="">
+            <input type="checkbox" id="grading_rubric" class="grading_rubric_checkbox">
+            <label for="grading_rubric">Use this rubric for assignment grading</label>
+          </div>
+        <div class="totalling_rubric" style="">
+          <input type="checkbox" id="totalling_rubric" class="totalling_rubric_checkbox">
+          <label for="totalling_rubric">Hide score total for assessment results</label>
+        </div>
+        <div class="ic-Action-header ic-Action-header--half-margin">
+          <div class="ic-Action-header__Primary">
+            <button type="button" class="Button cancel_button">Cancel</button>
+            <button type="submit" class="Button Button--primary save_button">Create Rubric</button>
+          </div>
+        </div>
+      </form>
+    </td>
+  </tr>
+</tbody></table>
+
+    <div style="display: none;" id="rubric_parameters">
+      <input type="hidden" name="rubric_association[association_type]" value="Assignment">
+      <input type="hidden" name="rubric_association[association_id]" value="204014">
+      <input type="hidden" name="rubric_association[purpose]" value="grading">
+    </div>
+    
+<div id="rubric_long_description_dialog" style="display: none;">
+  <div class="editing">
+    <form id="edit_criterion_form" class="no-margin-bottom">
+      <div>
+        <label class="rating_form_label">Description
+          <textarea class="description" rows="1" name="description"></textarea>
+        </label>
+      </div>
+      <div>
+        <label class="rating_form_label">Long Description
+          <textarea class="long_description" rows="4" name="long_description"></textarea>
+        </label>
+      </div>
+      <div class="button-container">
+        <button type="button" class="btn btn button-secondary cancel_button">Cancel</button>
+        <button type="button" class="btn save_button btn-primary">Update Criterion</button>
+      </div>
+    </form>
+  </div>
+  <div class="displaying">
+    <div class="long_description">
+    </div>
+  </div>
+</div>
+<div id="rubric_criterion_comments_dialog" style="display: none;">
+  <div class="criterion_description" style="border-bottom: 1px solid #ccc; padding: 5px 0; font-size: 1.2em; font-weight: bold; margin-bottom: 5px;" tabindex="-1"></div>
+  <div class="editing">
+    <label for="criterion_comments_textarea">
+      Additional Comments:
+    </label>
+    <textarea id="criterion_comments_textarea" class="criterion_comments" name="criterion_comments" style="width: 370px;"></textarea>
+    <div class="button-container">
+      <button type="button" class="btn btn button-secondary cancel_button">Cancel</button>
+      <button type="button" class="btn save_button">Update Comments</button>
+    </div>
+  </div>
+  <div class="displaying">
+    Additional Comments:
+    <div class="criterion_comments" style="margin-top: 10px;">
+    </div>
+  </div>
+</div>
+<div id="rubric_rating_dialog" style="display: none;">
+  <div class="description" style="border-bottom: 1px solid #ccc; padding: 5px 0; font-size: 1.2em; font-weight: bold; margin-bottom: 5px;">
+    <span id="edit_rating_form_criterion_description"></span>
+  </div>
+  <div class="editing">
+    <form id="edit_rating_form" class="no-margin-bottom">
+      <div class="toggle_for_hide_points">
+        <div><label id="rating_form_score_label" class="rating_form_label">Rating Score</label></div>
+        <span id="rating_form_max_score_label" hidden="">Rating max score</span>
+        <input id="points" aria-labelledby="rating_form_score_label" type="text" size="2" name="points" class="no-margin-bottom span1">
+        <span class="range_rating">to &gt;
+          <input aria-label="Rating min score" type="text" size="2" name="min_points" class="no-margin-bottom span1 min_points" placeholder="min">
+        </span>pts
+      </div>
+      <div>
+        <label for="rating_form_title" class="rating_form_label">Rating Title</label>
+        <input id="rating_form_title" type="text" class="rating_description" style="width: 90%;" name="description">
+      </div>
+      <div>
+        <label for="rating_form_description" class="rating_form_label">Rating Description</label>
+        <textarea id="rating_form_description" rows="4" style="width: 90%;" class="rating_long_description" name="rating_long_description" form="edit_rating_form"></textarea>
+      </div>
+      <div class="button-container">
+        <button type="button" class="btn button-secondary cancel_button">Cancel</button>
+        <button type="button" class="btn btn-primary save_button ok_button">Update Rating</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+  </div>
+  
+<div class="rubric_container rubric  " id="default_rubric" style="display: none;">
+  <div class="screenreader-only"><h2>Rubric</h2></div>
+  <div class="rubric_title">
+    <div style="display: none;" class="links displaying pull-right">
+      <a href="https://canvas.ucsc.edu/courses/39790/rubrics/%7B%7B%20id%20%7D%7D" class=" edit_rubric_link no-print no-hover" style="" title="Edit Rubric" aria-label="Edit Rubric" role="button"><i class="icon-edit standalone-icon"></i></a>
+      <a href="https://canvas.ucsc.edu/search/rubrics?q=" class="find_rubric_link no-print no-hover" style="" title="Find Another Rubric" aria-label="Find Another Rubric" role="button"><i class="icon-search standalone-icon"></i></a>
+        <a href="https://canvas.ucsc.edu/courses/39790/rubric_associations/%7B%7B%20rubric_association_id%20%7D%7D" class="delete_rubric_link no-print no-hover" style="" title="Delete Rubric" aria-label="Delete Rubric" role="button"><i class="icon-trash standalone-icon"></i></a>
+      <div style="display: none;">
+        <div class="use_for_grading">&nbsp;</div>
+        <div class="free_form_criterion_comments">&nbsp;</div>
+        <div class="hide_score_total">&nbsp;</div>
+        <div class="hide_outcome_results">&nbsp;</div>
+        <div class="hide_points">&nbsp;</div>
+        <div class="rubric_association_id">&nbsp;</div>
+          <div class="user_id">&nbsp;</div>
+        <div class="assessment_type"></div>
+        <a href="https://canvas.ucsc.edu/courses/39790/rubric_associations/%7B%7B%20rubric_association_id%20%7D%7D/assessments/%7B%7B%20assessment_id%20%7D%7D" rel="nofollow" class="edit_assessment_link">&nbsp;</a>
+        <a href="https://canvas.ucsc.edu/courses/39790/rubrics/%7B%7B%20rubric_id%20%7D%7D" class="edit_rubric_url">&nbsp;</a>
+          <a href="https://canvas.ucsc.edu/courses/39790/rubric_associations/%7B%7B%20association_id%20%7D%7D" class="delete_rubric_url">&nbsp;</a>
+      </div>
+    </div>
+    <div style="float: right; font-size: 0.8em; display: none;" class="links displaying locked">
+      <span style="">Can't change a rubric once you've started using it.</span>
+        <a href="https://canvas.ucsc.edu/courses/39790/rubric_associations/%7B%7B%20association_id%20%7D%7D" class="delete_rubric_url" style="display: none;">&nbsp;</a>
+    </div>
+
+    <div class="editing" style="float: right;">
+      <a href="https://canvas.ucsc.edu/search/rubrics?q=" class="find_rubric_link icon-search" style="" title="Find Existing Rubric">Find a Rubric</a>
+    </div>
+    <div class="editing" style="text-align: left">
+      <label for="rubric-title">Title:</label>
+      <input id="rubric-title" type="text" class="no-margin-bottom" name="title" value="Some Rubric" style="width: 200px;" maxlength="255" aria-label="Title:">
+      <a href="https://canvas.ucsc.edu/search/rubrics?q=" style="display: none;"><img alt="" src="./Lab 9_ JavaScript for the Web_files/find-6164443e2a.png"> Find Rubric</a>
+    </div>
+    <div class="displaying">
+      <span class="title" tabindex="-1">Title</span>
+    </div>
+    <div class="has-assessments-warning" style="display: none;">
+      You've already rated students with this rubric.  Any major changes could affect their assessment results.
+    </div>
+  </div>
+<table class="rubric_table">
+<caption>
+  <div class="screenreader-only">
+    <span class="title">Title</span>
+  </div>
+</caption>
+<thead>
+  <tr>
+    <th scope="col">Criteria</th>
+    <th scope="col">Ratings</th>
+    <th scope="col" class="toggle_for_hide_points ">
+      Pts
+    </th>
+  </tr>
+</thead>
+<tbody>
+  
+<tr id="criterion_blank" class="criterion blank" style="display: none;">
+  <td class="criterion_description hover-container pad-box-micro">
+    <div class="container">
+      <div class="links editing">
+          <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_criterion_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit criterion description</span></a>
+        <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_criterion_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete criterion row</span></a>
+      </div>
+      <div class="description_content">
+        <span class="outcome_sr_content" aria-hidden="true">
+          <i class="learning_outcome_flag icon-outcomes" aria-hidden="true"></i>
+          <span class="screenreader-only">This criterion is linked to a Learning Outcome</span>
+        </span>
+        <span class="description description_title">Description of criterion</span>
+        <span class="learning_outcome_id" style="display: none;"></span>
+        <span class="criterion_id" style="display: none;"></span>
+          <div class="long_description small_description"></div>
+        <div class="hide_when_learning_outcome ">
+          <div class="criterion_use_range_div editing toggle_for_hide_points ">
+            <label>Range
+              <input type="checkbox" class="criterion_use_range"></label>
+          </div>
+        </div>
+        <div class="threshold toggle_for_hide_points ">
+          threshold:
+          <span class="mastery_points">5</span> pts
+        </div>
+      </div>
+
+    </div>
+  </td>
+  <td style="padding: 0;">
+      <table class="ratings" style=""><tbody><tr>
+          <td id="rating_blank" class="rating edge_rating
+                
+                ">
+            <div class="container">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">5</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Full Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">blank</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td id="rating_blank_2" class="rating edge_rating
+                infinitesimal
+                ">
+            <div class="container">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">No Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">blank_2</span>
+              </div>
+            </div>
+          </td>
+      </tr></tbody></table>
+      <div style="display: none; font-size: 0.8em; margin: 5px;" class="custom_ratings">
+        This area will be used by the assessor to leave comments related to this criterion.
+      </div>
+  </td>
+  <td class="nobr points_form toggle_for_hide_points ">
+    <div class="editing" style="white-space: normal">
+      <span style="white-space: nowrap; font-size: 0.8em">
+          
+            <input type="text" aria-label="Points" value="5" class="criterion_points span1 no-margin-bottom">
+           pts
+      </span><br>
+    </div>
+    <div class="displaying">
+      <span style="white-space: nowrap;">
+        <span class="criterion_rating_points_holder" style="display: none;">
+          <span class="criterion_rating_points">&nbsp;</span> /
+        </span>
+        <span class="display_criterion_points">5</span> pts<br>
+      </span>
+    </div>
+    <div class="ignoring">
+      <span> -- </span>
+    </div>
+    <div class="criterion_comments">
+        <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="no-hover criterion_comments_link" title="Additional Comments">
+          <img alt="Additional Comments" src="./Lab 9_ JavaScript for the Web_files/rubric_comment-ddae8546ab.png">
+        </a>
+        <div class="custom_rating" style="display: none;"></div>
+    </div>
+  </td>
+</tr>
+
+  <tr id="criterion_1" class="criterion" style="display: table-row;">
+  <td class="criterion_description hover-container pad-box-micro">
+    <div class="container">
+      <div class="links editing">
+          <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_criterion_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit criterion description</span></a>
+        <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_criterion_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete criterion row</span></a>
+      </div>
+      <div class="description_content">
+        <span class="outcome_sr_content" aria-hidden="true">
+          <i class="learning_outcome_flag icon-outcomes" aria-hidden="true"></i>
+          <span class="screenreader-only">This criterion is linked to a Learning Outcome</span>
+        </span>
+        <span class="description description_title">Description of criterion</span>
+        <span class="learning_outcome_id" style="display: none;"></span>
+        <span class="criterion_id" style="display: none;"></span>
+          <div class="long_description small_description"></div>
+        <div class="hide_when_learning_outcome ">
+          <div class="criterion_use_range_div editing toggle_for_hide_points ">
+            <label>Range
+              <input type="checkbox" class="criterion_use_range"></label>
+          </div>
+        </div>
+        <div class="threshold toggle_for_hide_points ">
+          threshold:
+          <span class="mastery_points">5</span> pts
+        </div>
+      </div>
+
+    </div>
+  </td>
+  <td style="padding: 0;">
+      <table class="ratings" style=""><tbody><tr>
+          <td id="rating_blank" class="rating edge_rating
+                
+                ">
+            <div class="container">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">5</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">Full Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">blank</span>
+              </div>
+                <div class="editing links add_rating_link">
+                  <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="add_rating_link_after" aria-label="Add rating"><i class="icon-add icon-Solid"></i></a>
+                </div>
+            </div>
+          </td>
+          <td id="rating_blank_2" class="rating edge_rating
+                infinitesimal
+                ">
+            <div class="container">
+              <div class="rating-main">
+                  <div class="editing links">
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="edit_rating_link"><i class="icon-edit standalone-icon"></i><span class="screenreader-only">Edit rating</span></a>
+                    <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="delete_rating_link"><i class="icon-trash standalone-icon"></i><span class="screenreader-only">Delete rating</span></a>
+                  </div>
+                  <div class="clear"></div>
+                <span class="nobr toggle_for_hide_points ">
+                  <span class="points">0</span>
+                  <span class="range_rating" style="display: none;">to &gt;<span class="min_points">0</span></span> pts
+                </span>
+                <div class="description rating_description_value">No Marks</div>
+                <div class="rating_long_description small_description"></div>
+                <span class="rating_id" style="display: none;">blank_2</span>
+              </div>
+            </div>
+          </td>
+      </tr></tbody></table>
+      <div style="display: none; font-size: 0.8em; margin: 5px;" class="custom_ratings">
+        This area will be used by the assessor to leave comments related to this criterion.
+      </div>
+  </td>
+  <td class="nobr points_form toggle_for_hide_points ">
+    <div class="editing" style="white-space: normal">
+      <span style="white-space: nowrap; font-size: 0.8em">
+          
+            <input type="text" aria-label="Points" value="5" class="criterion_points span1 no-margin-bottom">
+           pts
+      </span><br>
+    </div>
+    <div class="displaying">
+      <span style="white-space: nowrap;">
+        <span class="criterion_rating_points_holder" style="display: none;">
+          <span class="criterion_rating_points">&nbsp;</span> /
+        </span>
+        <span class="display_criterion_points">5</span> pts<br>
+      </span>
+    </div>
+    <div class="ignoring">
+      <span> -- </span>
+    </div>
+    <div class="criterion_comments">
+        <a href="https://canvas.ucsc.edu/courses/39790/assignments/204014?module_item_id=345739#" class="no-hover criterion_comments_link" title="Additional Comments">
+          <img alt="Additional Comments" src="./Lab 9_ JavaScript for the Web_files/rubric_comment-ddae8546ab.png">
+        </a>
+        <div class="custom_rating" style="display: none;"></div>
+    </div>
+  </td>
+</tr><tr class="summary">
+    <td colspan="4">
+      <div class="total_points_holder toggle_for_hide_points " style="float: right; ">
+        <span>Total Points:
+            <span class="rubric_total">
+              5
+            </span>
+ <span class="assessing">out of 5</span>        </span>
+      </div>
+      <div class="editing pull-left">
+        <span id="add_criterion_holder" class="criterion_link"></span>
+      </div>
+      <div class="clear"></div>
+    </td>
+  </tr>
+</tbody>
+</table>
+</div>
+<table style="display: none;">
+  <tbody><tr id="edit_rubric">
+    <td colspan="4">
+      <form id="edit_rubric_form" class="edit-rubric-form no-margin-bottom">
+        <div class="rubric_custom_ratings" style="">
+          <input type="checkbox" id="rubric_custom_rating" class="rubric_custom_rating">
+          <label for="rubric_custom_rating">I'll write free-form comments when assessing students</label>
+        </div>
+          <div class="hide_points" style="">
+            <input type="checkbox" id="hide_points" class="hide_points_checkbox">
+            <label for="hide_points">Remove points from rubric</label>
+          </div>
+          <div class="hide_outcome_results" style="">
+            <input type="checkbox" id="hide_outcome_results" class="hide_outcome_results_checkbox">
+            <label for="hide_outcome_results">Don't post Outcomes results to Learning Mastery Gradebook</label>
+          </div>
+          <div class="rubric_grading" style="">
+            <input type="checkbox" id="grading_rubric" class="grading_rubric_checkbox">
+            <label for="grading_rubric">Use this rubric for assignment grading</label>
+          </div>
+        <div class="totalling_rubric" style="">
+          <input type="checkbox" id="totalling_rubric" class="totalling_rubric_checkbox">
+          <label for="totalling_rubric">Hide score total for assessment results</label>
+        </div>
+        <div class="ic-Action-header ic-Action-header--half-margin">
+          <div class="ic-Action-header__Primary">
+            <button type="button" class="Button cancel_button">Cancel</button>
+            <button type="submit" class="Button Button--primary save_button">Create Rubric</button>
+          </div>
+        </div>
+      </form>
+    </td>
+  </tr>
+</tbody></table>
+
+
+  <div id="assignment_external_tools"><div></div></div>
+
+  
+  <div id="sequence_footer" data-course-id="39790" data-asset-id="204014" data-asset-type="Assignment"><div class="module-sequence-padding"></div>
+<div class="module-sequence-footer" role="navigation" aria-label="Module Navigation">
+  <div class="module-sequence-footer-content">
+    
+      <span class="module-sequence-footer-button--previous" data-tooltip="right" data-html-tooltip-title="&lt;i class=&#39;icon-link&#39;&gt;&lt;/i&gt; Lecture - JavaScript for the Web">
+          <a href="https://canvas.ucsc.edu/courses/39790/modules/items/345674" role="button" class="Button" aria-describedby="msf0-previous-desc" aria-label="Previous Module Item - opens in new window">
+            <i class="icon-mini-arrow-left"></i>Previous
+            <span id="msf0-previous-desc" class="hidden" hidden="">Previous: Lecture - JavaScript for the Web</span>
+          </a>
+      </span>
+    
+
+    
+      <span class="module-sequence-footer-button--next" data-tooltip="left" data-html-tooltip-title="&lt;strong style=&#39;float:left&#39;&gt;Next Module:&lt;/strong&gt; &lt;br&gt; Lecture 12 - Javascript events and forms (11 Feb)">
+        <a href="https://canvas.ucsc.edu/courses/39790/modules/items/345740" role="button" class="Button" aria-describedby="msf0-next-desc" aria-label="Next Module Item">
+          Next<i class="icon-mini-arrow-right"></i>
+          <span id="msf0-next-desc" class="hidden" hidden="">Next Module: Lecture 12 - Javascript events and forms (11 Feb)</span>
+        </a>
+      </span>
+    
+  </div>
+</div>
+</div>
+
+
+
+          </div>
+        </div>
+        <div id="right-side-wrapper" class="ic-app-main-content__secondary">
+          <aside id="right-side" role="complementary">
+            
+<div id="sidebar_content">
+
+
+</div>
+
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div style="display:none;"><!-- Everything inside of this should always stay hidden -->
+        <div id="page_view_id">e7744145-8072-417a-bd51-c8a923cdf744</div>
+    </div>
+  <div id="aria_alerts" class="hide-text affix" role="alert" aria-live="assertive"></div>
+  <div id="StudentTray__Container"></div>
+  
+
+  <script>
+    Object.assign(
+      ENV,
+      {}
+    )
+  </script>
+
+<link rel="preload" href="./Lab 9_ JavaScript for the Web_files/inst_fs_service_worker-c-b8bc63fc5e.js" as="script" type="text/javascript"><script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('inst_fs_service_worker');
+//]]>
+</script>
+  <script>
+//<![CDATA[
+
+      ;["https://instructure-uploads.s3.amazonaws.com/account_92700000000000001/attachments/2952299/Canvasproduction.js"].forEach(function(src) {
+        var s = document.createElement('script')
+        s.src = src
+        s.async = false
+        document.head.appendChild(s)
+      });
+//]]>
+</script>
+
+</div> <!-- #application -->
+
+
+<div id="nav-tray-portal" style="position: relative; z-index: 99;"></div><div class="tinymce-a11y-checker-container"></div></body></html>

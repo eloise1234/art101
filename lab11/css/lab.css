@@ -1,0 +1,49 @@
+head {
+  color: black
+}
+h1 {
+  font-size: 26px;
+  color: pink;
+  margin-left: 160px;
+}
+
+h2 {
+  font-size: 19px;
+  color: pink;
+  margin-left: 300px;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 19px;
+  color: pink;
+  margin-left: 310px;
+  font-style: italic;
+}
+
+h4 {
+  font-size: 19px;
+  color: pink;
+  margin-left: 315px;
+  font-style: italic;
+}
+
+html {
+  background-color: red;
+}
+
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+
+#target {
+  font-weight: bold;
+  font-size: 20px;
+}
+#challenge, #problems, #results {
+  border-width: 600px;
+  background-color: black;
+}

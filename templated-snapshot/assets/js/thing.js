@@ -8,4 +8,8 @@ function submitBio(){
 }
 document.getElementById("bio_submit_id").addEventListener('click',submitBio);
 
-document.getElementById("name_email_id").innerHTML= nameVar="EMAIL:"+nameEmail;
+
+$("#changecolor").append("<button id= 'colorbutton'>change the color");
+$("#colorbutton").click(function(){
+  $(this).parent().toggleClass("special");
+})

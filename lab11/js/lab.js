@@ -4,28 +4,18 @@
  *
  **/
 
-var ch = $('<input/>').attr({ type: 'button', name:'btn1', value:'Challenges' });
-$("#challenge").append(ch);
-var pr = $('<input/>').attr({ type: 'button', name:'btn2', value:'Problems' });
-$("#problems").append(pr);
-var res = $('<input/>').attr({ type: 'button', name:'btn3', value:'Results' });
-$("#results").append(res);
+$("#challenge").append("<button id='c-button'>Button</button>");
+$("#problems").append("<button id='p-button'>Button</button>");
+$("#results").append("<button id='r-button'>Button</button>");
 
-$( "#challenge" ).click(function() {
-  alert( "this is for challenges" );
-});
-$( "#problems" ).click(function() {
-  alert( "this is for problems" );
-});
-$( "#results" ).click(function() {
-  alert( "this is for results" );
-});
 
-$("button.red").click(function(){
-  $("#target").removeClass("blue");
-	$("#target").toggleClass("red")
+
+$('#c-button').click(function(){
+  $(this).parent().toggleClass("special");
 });
-$("button.blue").click(function(){
-  $("#target").removeClass("red");
-	$("#target").toggleClass("blue");
+$('#p-button').click(function(){
+  $(this).parent().toggleClass("special");
+});
+$('#r-button').click(function(){
+  $(this).parent().toggleClass("special");
 });

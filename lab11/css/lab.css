@@ -32,18 +32,14 @@ html {
   background-color: red;
 }
 
-.red {
-  color: red;
-}
-.blue {
-  color: blue;
-}
 
-#target {
-  font-weight: bold;
-  font-size: 20px;
-}
 #challenge, #problems, #results {
   border-width: 600px;
   background-color: black;
+
+}
+
+.special{
+  color: pink;
+  font-size: 22px;
 }

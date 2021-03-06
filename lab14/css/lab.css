@@ -1,0 +1,38 @@
+head {
+  color: #green
+}
+h1 {
+  font-size: 26px;
+  color: #green;
+  margin-left: 190px;
+}
+
+h2 {
+  font-size: 19px;
+  color: white;
+  margin-left: 300px;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 19px;
+  color: white;
+  margin-left: 310px;
+  font-style: italic;
+}
+
+h4 {
+  font-size: 19px;
+  color: white;
+  margin-left: 315px;
+  font-style: italic;
+}
+
+html {
+  background-color: #228B22;
+}
+#challenge, #problems, #results, #debugging {
+  border-width: 600px;
+  background-color: #8FBC8F;
+  color: #green;
+}

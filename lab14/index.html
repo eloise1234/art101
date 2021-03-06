@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 14 - Debugging Tools and Strategies</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	 <script src="js/lab.js"defer></script>
 </head>
 <body>
+	<h1> Lab 14 - Debugging Tools and Strategies</h1>
 
+	<div id="challenge">
+	<h2> Challenges </h2>
+		<p> For this lab, we had to go back to a previous lab that wasn't working how it was supposed to, and debug it using various techniques and tools. </p>
+	</div>
+
+	<div id="problems">
+		<h3> Problems </h3>
+			<p> With the help of debugging techniques and methods we learned in class, we were able to eventually narrow down our problem. Our code for lab 12 didn't have any explicit errors in it, which meant we were unable to use some debugging methods. But we eventually found the problem to be an assignment of a wrong argument to our function, which created the problem. </p>
+	</div>
+
+	<div id="results">
+		<h4> Results </h4>
+			<div id="debugging">
+				<h5> Debugging <h5>
+					<p> We picked Lab 12 which had an issue where the sorting hat would sort every name into the same house, Hufflepuff, each time. Our code was not giving any errors, which meant there was an error in logic instead of syntax. This meant that we couldn’t necessarily use basic debugging techniques  like commenting out half the code to see where the error lies. Since there weren’t any problems in our code syntax wise, we started off looking through our html code and looking out for any problems. After making a few quality of life fixes to the code, our code still wasn’t functioning as intended. So we moved on to our Javascript file, and went line by line to see if our logic worked according to the algorithm. This is where we found the problem: We had given the sortingHat function the wrong argument. Instead of “name” we provided “username” to the function, which is what we had defined our input variable as. This led to our function working as intended. </p>
+<img src= "img/debug.jpeg" width="350">
+<img src= "img/debug1.png" width="350">
+  </div>
+</div>
 </body>
 </html>
